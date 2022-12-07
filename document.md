@@ -40,4 +40,108 @@ Bookstore是一个**书店管理系统**，面向书店的管理者们和受众�
 
 ## 各类接口、成员说明
 
-待进一步深入研究......
+**Bookstore**
+
+```C++
+private:
+	Books all_books;
+	Users all_users;
+	Finance_system finance_system;
+	Employee_system employee_system;
+public:
+	Bookstore();
+	void run(const string &command);
+	void quit();
+	void buy(vector<string> &key_list);
+	void select(vector<string> &key_list)
+    void edit(vector<string> &key_list)
+    void add_user(vector<string> &key_list)
+    void login(vector<string> &key_list)
+```
+
+
+
+**TokenScanner**
+
+```C++
+TokenScanner(std::istream &infile) // constructor via files
+
+~TokenScanner // delocate the storage
+
+bool hasMoreTokens()
+
+std::string nextToken() // get the next piece of information
+
+void saveToken(std::string token) // push the token back
+```
+
+**Login**
+
+```c++
+// members
+std::vector<std::string> current_users;
+std::stac<std::string> users;
+// member functions
+login() // initialize the stack
+~login()
+void enroll (std::string name) // login of a user(will check validity)
+void exit() // exit the current layer of login
+std::String get_user_name()
+```
+
+**User**
+
+```C++
+enum user_state {guest = 0, customer = 1, staff = 3, administrator= 7};
+private:
+	char id,password,name;
+public:
+	user_state power;
+	User();
+	User(const string &id_, const string &name_, const string &password_, const user_state & power);
+	void edit_password(const string &);
+```
+
+**Books**
+
+```C++
+friend ostream &operator<<(ostream &, const Books &);
+private:
+	char keyword,name,author,isbn;
+	long long rest;
+	double price;
+public:
+	Books();
+	const string isbn();
+	const string name();
+	const string keyword();
+	const double &price();
+	const long long &rest();
+	
+	// there're also functions for data modification
+```
+
+**Error**
+
+```C++
+std::string message;
+ErrorException(std::string message) {
+	this->message = message;
+}
+void error(stdd::string message) // send the error message
+```
+
+**Logging**
+
+```C++
+char *operator_id; // who did this
+bool result; // whether it succeeded
+char *cmd; // store the commands
+int time; // when it was done
+friend ostream &operator<<(ostream &, const Log &);
+Log();
+```
+
+## 文件储存
+
+运行中的输出信息会输出到对应类的文档中
