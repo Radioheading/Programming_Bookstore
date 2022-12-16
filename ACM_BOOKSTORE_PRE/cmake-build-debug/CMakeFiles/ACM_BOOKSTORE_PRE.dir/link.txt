@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ACM_BOOKSTORE_PRE.dir/main.cpp.o  -o ACM_BOOKSTORE_PRE 
