@@ -1,5 +1,4 @@
 cmake-build-debug
 data
 ACM_BOOKSTORE_PRE
-bookstore.hpp
-bookstore.cpp
+.idea
