@@ -17,26 +17,7 @@
 // func: StringToUnsignedInt
 // check the validity of the string and make it an unsigned
 // integer if it can be converted
-void checkint(const std::string &input)
-{
-  if (input.size() > 10) throw 0;
-  for (int i = 0; i < input.size(); i++)
-    if (input[i] < '0' || input[i] > '9')
-      throw ErrorException();
-}
 
-void checkfloat(const std::string &input)
-{
-  if (input.size() > 13) throw 0;
-  bool point = false;
-  for (int i = 0; i < input.size(); i++)
-  {
-    if (input[i] == '.' && !point && i != 0 && i != input.size()-1)
-      point = true;
-    else if (input[i] < '0' || input[i] > '9')
-      throw ErrorException();
-  }
-}
 int StringToUnsignedInt(const std::string &input) {
   if (input.length() > 10) throw ErrorException();
   long long ans = 0;
@@ -56,7 +37,7 @@ bool UnsignedIntCheck(const std::string &input) {
     if (input[i] > 57 || input[i] < 48) return false;
     else ans = ans * 10 + input[i] - 48;
   }
-  if (ans == 0 || ans > 2147483647) return false;
+  if (ans > 2147483647) return false;
   return true;
 }
 
@@ -245,8 +226,7 @@ void Execute(Program &program, const std::vector<std::string> &input) {
           program.finance.ShowFinance(-1);
         }
         if (input.size() == 3) {
-
-          if (input[2][0] == '0') {
+          if (input[2][0] == '0' && UnsignedIntCheck(input[2])) {
             program.finance.ShowFinance(0);
           } else {
             program.finance.ShowFinance(StringToUnsignedInt(input[2]));
