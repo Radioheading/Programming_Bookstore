@@ -17,6 +17,7 @@ int main() {
       //cout<<operation<<'\n';
       //----1----
       //check the grammar validity
+      if (operation.length() > 1024) throw ErrorException();
       std::vector<std::string> todo = Decompose(operation);
       if (todo.size() == 1 && (todo[0] == "exit" || todo[0] == "quit")) {
         return 0;
