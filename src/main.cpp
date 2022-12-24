@@ -9,11 +9,12 @@ string operation;
 using std::cout;
 int main() {
   ios::sync_with_stdio(false);
-  //cin.tie(nullptr);
-  //cout.tie(nullptr);
+  cin.tie(nullptr);
+  cout.tie(nullptr);
   Program myProgram;
   while (getline(cin,operation)) {
     try {
+      cout<<operation<<'\n';
       //----1----
       //check the grammar validity
       std::vector<std::string> todo = Decompose(operation);

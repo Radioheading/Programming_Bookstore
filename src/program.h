@@ -352,7 +352,7 @@ void Program::Modify(const std::vector<std::pair<int, std::string>> &todo) {
       login_stack.back().selected.ChangeKeyword(todo[i].second);
     }
     if (todo[i].first == 5) {
-      if (!DoubleCheck(todo[i].second)) {
+      if (!DoubleCheck(todo[i].second) && todo[i].second != "0") {
         Input(duplicate);
         login_stack.back().selected = duplicate;
         throw ErrorException();
