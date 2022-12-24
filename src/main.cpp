@@ -14,7 +14,7 @@ int main() {
   Program myProgram;
   while (getline(cin,operation)) {
     try {
-      cout<<operation<<'\n';
+      //cout<<operation<<'\n';
       //----1----
       //check the grammar validity
       std::vector<std::string> todo = Decompose(operation);
