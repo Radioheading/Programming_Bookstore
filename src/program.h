@@ -35,7 +35,6 @@ bool DoubleCheck(const std::string &input) {
   if (input.size() == 1 && input[0] == '0') return false;
   if (input[0] == '.') return false;
   if (input.size() > 1) {
-    if (input[0] == '0' && input[1] == '0') return false;
     if (input[0] == '0' && input[1] != '.') return false;
   }
   for (int i = 0; i < input.size(); ++i) {
@@ -48,6 +47,8 @@ bool DoubleCheck(const std::string &input) {
       }
     }
   }
+  if (input == "0.0") return false;
+  if (input[input.size()-1] == '.') return false;
   return true;
 }
 //--------------------------Class Program---------------------------------
