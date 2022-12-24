@@ -1,7 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cstring>
-#include <unordered_map>
 #include <vector>
 #include "explain.h"
 #include "program.h"
@@ -10,18 +8,21 @@ using namespace std;
 string operation;
 using std::cout;
 int main() {
-  //freopen("testcase4.in","r",stdin);
-  //freopen("out.txt","w",stdout);
   ios::sync_with_stdio(false);
   //cin.tie(nullptr);
   //cout.tie(nullptr);
   Program myProgram;
   while (getline(cin,operation)) {
-    //cout<<operation<<'\n';
     try {
+      //----1----
+      //check the grammar validity
       std::vector<std::string> todo = Decompose(operation);
+      //----2----
+      //run the operations
       Execute(myProgram,todo);
     } catch (ErrorException) {
+      //----3----
+      //in case of wrong messages
       cout <<"Invalid" << '\n';
     }
   }

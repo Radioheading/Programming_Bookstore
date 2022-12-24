@@ -4,6 +4,11 @@
 #include "ErrorException.h"
 #include "book.h"
 
+/*------------------------Account Part----------------------------
+ * this part mainly deal with the accounts of users, and check the
+ * validity of the initializing information
+ * -------------------------------------------------------------*/
+
 const int MaxLen = 30;
 const int PrivilegeLen = 1;
 const std::unordered_set<std::string> Privilege = {"0", "1", "3", "7"};
@@ -19,12 +24,12 @@ bool UserNameCheck(const std::string &_name) {
 }
 
 // check the validity of other information
+// including passwords and IDs
 bool UserInfoCheck(const std::string &_info) {
   if (_info.length() > MaxLen) return false;
   for (int i = 0; i < _info.length(); ++i) {
-    if (!(_info[i] == 95 || _info[i] > 47 || _info[i] < 58
-        || _info[i] > 64 || _info[i] < 91 || _info[i] > 96
-        || _info[i] < 123))
+    if (!(_info[i] == '_' || _info[i] <= '9' && _info[i] >= '0' ||
+        _info[i] <= 'z' && _info[i] >= 'a' || _info[i] <= 'Z' && _info[i] >= 'A'))
       return false;
   }
   return true;
@@ -38,8 +43,10 @@ bool PrivilegeCheck(const std::string &_privilege) {
   return true;
 }
 
-// class user:
-// store the information of one account, and the operations
+/* ---------------------------class user-----------------------------
+ * store the information of one account, and the operations
+ * -----------------------------------------------------------------*/
+
 class User {
   friend class Program;
  protected:
@@ -80,7 +87,6 @@ class User {
       memset(Password, 0, sizeof(Password));
       memset(UserID, 0, sizeof(UserID));
       memset(Username, 0, sizeof(Username));
-      privilege = 0;
       strcpy(Password, cmp.Password);
       strcpy(UserID, cmp.UserID);
       strcpy(Username, cmp.Username);
@@ -94,7 +100,7 @@ class User {
     return (std::string) cmp_1.UserID != (std::string) cmp_2.UserID;
   }
   friend std::ostream &operator<<(std::ostream &os, const User &out) {
-    os<<out.UserID<<" " <<out.Password<<" "<<out.privilege<<" "<<out.Username<<'\n';
+    os << out.UserID << " " << out.Password << " " << out.privilege << " " << out.Username << '\n';
     return os;
   }
 };

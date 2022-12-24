@@ -12,7 +12,7 @@ double StringToDouble(const std::string &input) {
   bool dot = false;
   if (input.size() == 1 && input[0] == '0') return 0;
   if (input[0] == '.') throw ErrorException();
-  if (input.size()>1) {
+  if (input.size() > 1) {
     if (input[0] == '0' && input[1] == '0') throw ErrorException();
     if (input[0] == '0' && input[1] != '.') throw ErrorException();
   }
@@ -29,7 +29,31 @@ double StringToDouble(const std::string &input) {
   return std::stod(input);
 }
 
+bool DoubleCheck(const std::string &input) {
+  if (input.length() > 13) return false;
+  bool dot = false;
+  if (input.size() == 1 && input[0] == '0') return false;
+  if (input[0] == '.') return false;
+  if (input.size() > 1) {
+    if (input[0] == '0' && input[1] == '0') return false;
+    if (input[0] == '0' && input[1] != '.') return false;
+  }
+  for (int i = 0; i < input.size(); ++i) {
+    if (input[i] == '.') {
+      if (!dot) dot = true;
+      else return false;
+    } else {
+      if (input[i] > '9' || input[i] < '0') {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+//--------------------------Class Program---------------------------------
 // this class stores everything of a bookstore system
+// its member functions involve all the possible operations in a bookstore
+//-----------------------------------------------------------------------*/
 class Program {
  public:
   // members
@@ -99,25 +123,18 @@ Program::Program() {
   author_bookstore.initialize("authors");
   keyword_bookstore.initialize("keywords");
   finance.initialize("records");
-  // create the super administrator
   User super_admin("7", "root", "sjtu");
   if (user_store.Find("root").empty()) {
     user_store.Insert("root", super_admin);
   }
 }
 void Program::Login(const std::string &id, const std::string &password) {
-  //std::cout << id << '\n';
   std::vector<User> exist_check = user_store.Find(id);
   if (exist_check.empty()) {
-    //std::cout << "doesn't exist!\n";
     throw ErrorException();
   } else {
-    //std::cout << exist_check[0].Password << password << '\n';
-    //std::cout << current_privilege << " " << exist_check[0].privilege << '\n';
-    //std::cout << (exist_check[0].Password == password) << '\n';
     if (exist_check[0].Password != password
         && current_privilege <= exist_check[0].privilege) {
-      //std::cout << "wrong password or no privilege\n";
       throw ErrorException();
     } else { // successful Login!
       login_stack.push_back(exist_check[0]);
@@ -143,6 +160,9 @@ void Program::Register(const std::string &userid, const std::string &password, c
   if (!user_store.Find(userid).empty()) {
     throw ErrorException();
   } else {
+    if (!UserNameCheck(username) || !UserInfoCheck(password) || !UserInfoCheck(userid)) {
+      throw ErrorException();
+    }
     User another("1", userid, password, username);
     user_store.Insert(userid, another);
   }
@@ -156,6 +176,9 @@ void Program::ModifyPassword(const std::string &id,
   if ((std::string) modify[0].Password != current_password
       && current_privilege != 7)
     throw ErrorException();
+  if (!UserInfoCheck(new_password)) {
+    throw ErrorException();
+  }
   user_store.Delete(id, modify[0]);
   modify[0].ChangePassword(new_password);
   user_store.Insert(id, modify[0]);
@@ -166,6 +189,10 @@ void Program::AddUser(const std::string &userid,
                       const std::string &username) {
   if (current_privilege < 3 || privilege[0] - 48 >= current_privilege) throw ErrorException();
   if (!user_store.Find(userid).empty()) throw ErrorException();
+  if (!PrivilegeCheck(privilege) || !UserNameCheck(username)
+      || !UserInfoCheck(password) || !UserInfoCheck(userid)) {
+    throw ErrorException();
+  }
   User added_user(privilege, userid, password, username);
   user_store.Insert(userid, added_user);
 }
@@ -206,22 +233,19 @@ void Program::Buy(const std::string &_ISBN, int number) {
   std::vector<Book> search = book_store.Find(_ISBN);
   if (search.empty()) throw ErrorException();
   if (search[0].storage < number) throw ErrorException();
-  //std::cout<<search[0];
   Erase(search[0]);
   search[0].storage -= number;
   for (int i = 0; i < login_stack.size(); ++i) {
     if (login_stack[i].choosing && login_stack[i].selected.ISBN == _ISBN) {
-      login_stack[i].selected.storage -=number;
+      login_stack[i].selected.storage -= number;
     }
   }
   Input(search[0]);
-  //std::cout<<search[0];
   std::cout << std::fixed << std::setprecision(2);
   std::cout << search[0].price * number << '\n';
   finance.Insert(search[0].price * number);
 }
 void Program::Import(const int &quantity, const double &total_cost) {
-  //std::cout<<quantity<<'\n';
   if (current_privilege < 3 || !login_stack.back().choosing) {
     throw ErrorException();
   }
@@ -234,21 +258,40 @@ void Program::Import(const int &quantity, const double &total_cost) {
   }
   Erase(login_stack.back().selected);
   login_stack.back().selected.storage += quantity;
-  for (int i:identical) {
+  for (int i : identical) {
     login_stack[i].selected = login_stack.back().selected;
   }
-  // Todo: record this in the log system
+  // record this in the log system
   finance.Insert(-total_cost);
-  //std::cout<<-total_cost<<'\n';
   Input(login_stack.back().selected);
 }
 void Program::Show(const int &way, const std::string &content) {
   if (current_privilege < 1) throw ErrorException();
   std::vector<Book> search;
-  if (way == 1) search = book_store.Find(content);
-  if (way == 2) search = name_bookstore.Find(content);
-  if (way == 3) search = author_bookstore.Find(content);
-  if (way == 4) search = keyword_bookstore.Find(content);
+  if (way == 1) {
+    if (!ISBNCheck(content)) {
+      throw ErrorException();
+    }
+    search = book_store.Find(content);
+  }
+  if (way == 2) {
+    if (!BookInfoCheck(content)) {
+      throw ErrorException();
+    }
+    search = name_bookstore.Find(content);
+  }
+  if (way == 3) {
+    if (!BookInfoCheck(content)) {
+      throw ErrorException();
+    }
+    search = author_bookstore.Find(content);
+  }
+  if (way == 4) {
+    if (!SingleKeywordCheck(content)) {
+      throw ErrorException();
+    }
+    search = keyword_bookstore.Find(content);
+  }
   if (search.empty()) std::cout << '\n';
   else {
     for (int i = 0; i < search.size(); ++i) {
@@ -275,7 +318,7 @@ void Program::Modify(const std::vector<std::pair<int, std::string>> &todo) {
         login_stack.back().selected = duplicate;
         throw ErrorException();
       } else {
-        if (!book_store.Find(todo[i].second).empty()) {
+        if (!book_store.Find(todo[i].second).empty() || !ISBNCheck(todo[i].second)) {
           Input(duplicate);
           login_stack.back().selected = duplicate;
           throw ErrorException();
@@ -285,9 +328,19 @@ void Program::Modify(const std::vector<std::pair<int, std::string>> &todo) {
       }
     }
     if (todo[i].first == 2) {
+      if (!BookInfoCheck(todo[i].second)) {
+        Input(duplicate);
+        login_stack.back().selected = duplicate;
+        throw ErrorException();
+      }
       login_stack.back().selected.ChangeName(todo[i].second);
     }
     if (todo[i].first == 3) {
+      if (!BookInfoCheck(todo[i].second)) {
+        Input(duplicate);
+        login_stack.back().selected = duplicate;
+        throw ErrorException();
+      }
       login_stack.back().selected.ChangeAuthor(todo[i].second);
     }
     if (todo[i].first == 4) {
@@ -299,6 +352,11 @@ void Program::Modify(const std::vector<std::pair<int, std::string>> &todo) {
       login_stack.back().selected.ChangeKeyword(todo[i].second);
     }
     if (todo[i].first == 5) {
+      if (!DoubleCheck(todo[i].second)) {
+        Input(duplicate);
+        login_stack.back().selected = duplicate;
+        throw ErrorException();
+      }
       login_stack.back().selected.ChangePrice(StringToDouble(todo[i].second));
     }
     for (int i : identical) {

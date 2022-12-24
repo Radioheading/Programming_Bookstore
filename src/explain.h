@@ -1,7 +1,3 @@
-//
-// Created by 18221 on 2022/12/19.
-//
-
 #ifndef BOOKSTORE_REAL__EXPLAIN_H_
 #define BOOKSTORE_REAL__EXPLAIN_H_
 
@@ -12,6 +8,15 @@
 #include <unordered_set>
 #include "program.h"
 
+/*------------------------------explain.h-------------------------
+ * the head file mainly focuses on the separation of the operation
+ * line, so as to execute them
+ * -------------------------------------------------------------*/
+
+
+// func: StringToUnsignedInt
+// check the validity of the string and make it an unsigned
+// integer if it can be converted
 int StringToUnsignedInt(const std::string &input) {
   if (input.length() > 10) throw ErrorException();
   long long ans = 0;
@@ -23,7 +28,21 @@ int StringToUnsignedInt(const std::string &input) {
   if (ans == 0 || ans > 2147483647) throw ErrorException();
   return (int) ans;
 }
+bool UnsignedIntCheck(const std::string &input) {
+  if (input.length() > 10) return false;
+  long long ans = 0;
+  if (input.size() > 1 && input[0] == '0') return false;
+  for (int i = 0; i < input.length(); ++i) {
+    if (input[i] > 57 || input[i] < 48) return false;
+    else ans = ans * 10 + input[i] - 48;
+  }
+  if (ans == 0 || ans > 2147483647) return false;
+  return true;
+}
 
+// func: ParseShow
+// parse the show operations into the showing type and
+// the showing keywords
 std::pair<int, std::string> ParseShow(const std::string &input) {
   if (input[0] != '-') {
     throw ErrorException();
@@ -112,7 +131,6 @@ std::unordered_set<std::string> reserved =
      "select", "modify", "import", "show", "log"};
 
 std::vector<std::string> Decompose(const std::string &input) {
-  //std::cout<<"Parsing"<<'\n';
   std::vector<std::string> ans;
   std::string temp = "";
   int i;
@@ -133,9 +151,6 @@ std::vector<std::string> Decompose(const std::string &input) {
   if (temp != "") {
     ans.push_back(temp);
   }
-  for (int j = 0; j < ans.size(); ++j) {
-    //std::cout << ans[j] << '\n';
-  }
   if (ans.empty()) return ans;
   if (reserved.find(ans[0]) == reserved.end()) throw ErrorException();
   if (ans[0] == "quit" && ans.size() != 1) throw ErrorException();
@@ -152,14 +167,10 @@ std::vector<std::string> Decompose(const std::string &input) {
   if (ans[0] == "buy" && ans.size() != 3) throw ErrorException();
   if (ans[0] == "show" && ans.size() > 3) throw ErrorException();
   if (ans[0] == "modify" && (ans.size() > 6 || ans.size() < 2)) throw ErrorException();
-  for (int i = 0; i < ans.size(); ++i) {
-    //std::cout << ans[i] << '\n';
-  }
   return ans;
 }
 
 void Execute(Program &program, const std::vector<std::string> &input) {
-  //std::cout << "executing\n";
   if (input.empty()) return;
   if (input[0] == "quit") {
     program.Quit();
@@ -200,7 +211,6 @@ void Execute(Program &program, const std::vector<std::string> &input) {
     program.Buy(input[1], StringToUnsignedInt(input[2]));
   }
   if (input[0] == "import") {
-    //std::cout<<"fitting!\n";
     program.Import(StringToUnsignedInt(input[1]), StringToDouble(input[2]));
   }
   if (input[0] == "show") {

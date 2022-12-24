@@ -6,6 +6,11 @@
 #include <fstream>
 #include <cstring>
 #include <algorithm>
+
+/*-----------------------------Class Unrolled_Linklist--------------------------------
+ * this is a data structure which can store information in files in a comparatively
+ * more convenient way, enabling us to insert/find/delete information more quickly
+ * ---------------------------------------------------------------------------------*/
 template<class T>
 struct books {
   char name[65];
@@ -65,7 +70,6 @@ class unrolled_linklist {
     if (!file_stream) {
       file_stream.close();
       file_stream.open(file_name, std::ios::out);
-      //std::cout << start.now_size << " " << start.start_place << " " << start.end_place << '\n';
       file_stream.write(reinterpret_cast<char *>(&start), sizeof(start));
       file_stream.close();
     } else {
@@ -80,14 +84,11 @@ class unrolled_linklist {
     file_stream.open(file_name);
     file_stream.seekg(0, std::ios::beg);
     if (!file_stream) {
-      //std::cout << "initialize!\n";
       file_stream.close();
       file_stream.open(file_name, std::ios::out);
-      //std::cout << start.now_size << " " << start.start_place << " " << start.end_place << '\n';
       file_stream.write(reinterpret_cast<char *>(&start), sizeof(start));
       file_stream.close();
     } else {
-      //std::cout << "already exist!\n";
       file_stream.close();
     }
   }
@@ -96,8 +97,6 @@ class unrolled_linklist {
     file_stream.open(file_name);
     file_stream.seekg(0);
     file_stream.read(reinterpret_cast<char *>(&start), sizeof(start));
-    //std::cout << start.now_size << " " << start.start_place << '\n';
-    for (int i = 0; i < start.now_size; ++i) //std::cout << start.block_storage[i] << '\n';
       file_stream.seekp(start.start_place);
     if (start.now_size == 0) { // nothing exist then
       node<T> temp;
@@ -119,25 +118,20 @@ class unrolled_linklist {
       node<T> current;
       file_stream.seekg(start.block_storage[i]);
       file_stream.read(reinterpret_cast<char *>(&current), sizeof(current));
-      //std::cout << start.block_storage[i] << ":" << i << " " << current.current_size << " "<< current.small_books[current.current_size - 1].name << '\n';
       unsigned long insert_place =
           std::upper_bound(current.small_books, current.small_books + current.current_size, another)
               - current.small_books;
-      //std::cout << "insert in:" << insert_place << '\n';
       for (int j = current.current_size; j > insert_place; --j) {
         current.small_books[j] = current.small_books[j - 1];
       }
       current.small_books[insert_place] = another;
       ++current.current_size;
       if (current.current_size == max_size) { // block splitting required
-        //std::cout << "splitting!" << '\n';
         node<T> new_block;
         new_block.current_size = out_size;
         current.current_size = max_size - out_size;
-        //std::cout << current.current_size << '\n';
         for (int j = 0; j < out_size; ++j) {
           new_block.small_books[j] = current.small_books[j + max_size - out_size];
-          //std::cout << new_block.small_books[j].name << '\n';
         }
         for (int j = start.now_size; j >= i + 2; --j) {
           start.block_storage[j] = start.block_storage[j - 1];
@@ -159,7 +153,6 @@ class unrolled_linklist {
         file_stream.seekp(start.block_storage[i]);
         file_stream.write(reinterpret_cast<char *>(&current), sizeof(current));
         start.last_book[i] = current.small_books[current.current_size - 1];
-        //std::cout<<i<<" "<<start.last_book[i].value<<'\n';
         file_stream.seekp(0);
         file_stream.write(reinterpret_cast<char *>(&start), sizeof(start));
         file_stream.close();
@@ -175,15 +168,11 @@ class unrolled_linklist {
     file_stream.read(reinterpret_cast<char *>(&start), sizeof(start));
     if (start.now_size == 0 || start.last_book[start.now_size - 1] < another) {
       if (start.now_size != 0) {
-        //std::cout << start.now_size << " " << another.name << " ";
-        //std::cout << start.last_book[start.now_size - 1].value << '\n';
       }
-      //std::cout << "are you sure it exists?\n";
       file_stream.close();
       return ans;
     }
     for (int i = 0; i < start.now_size; ++i) {
-      //std::cout << start.block_storage[i] << '\n';
       if (start.last_book[i] >= another) {
         file_stream.seekg(start.block_storage[i]);
         node<T> current;
@@ -191,11 +180,9 @@ class unrolled_linklist {
         unsigned long find_place =
             std::lower_bound(current.small_books, current.small_books + current.current_size, another)
                 - current.small_books;
-        //std::cout << current.current_size << " " << i << " " << find_place << " " << current.current_size << '\n';
         for (unsigned long j = find_place; j < current.current_size; ++j) {
           if ((std::string) current.small_books[j].name == index) {
             ans.push_back(current.small_books[j].value);
-            //std::cout << current.small_books[j].name << " " << current.small_books[j].value << '\n';
           } else break;
         }
         if (current.small_books[current.current_size - 1].name != index) break;
@@ -241,11 +228,9 @@ class unrolled_linklist {
         file_stream.close();
         return;
       }
-      //std::cout << "maybe in :" << i << '\n';
       file_stream.seekg(start.block_storage[i]);
       node<T> current;
       file_stream.read(reinterpret_cast<char *>(&current), sizeof(current));
-      //std::cout << current.current_size << " " << current.small_books[current.current_size - 1].name << " "<< current.small_books[current.current_size - 1].value << '\n';
       if (current.current_size > 0
           && current.small_books[current.current_size - 1] >= another) { // we may delete things here
         unsigned long j = std::lower_bound(current.small_books, current.small_books + current.current_size, another)

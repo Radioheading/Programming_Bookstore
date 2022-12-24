@@ -1,7 +1,3 @@
-//
-// Created by 18221 on 2022/12/21.
-//
-
 #ifndef BOOKSTORE_REAL__BOOK_H_
 #define BOOKSTORE_REAL__BOOK_H_
 
@@ -23,6 +19,7 @@ bool ISBNCheck(const std::string &_ISBN) {
 }
 
 // check the validity of other information
+// including BookName, Author, Keyword
 bool BookInfoCheck(const std::string &info) {
   if (info.length() > MaxInfoLen) return false;
   for (int i = 0; i < info.length(); ++i) {
@@ -31,6 +28,8 @@ bool BookInfoCheck(const std::string &info) {
   return true;
 }
 
+/*func: ParseKeywords
+ * part the keyword string (including "|") into pieces of keywords*/
 std::vector<std::string> ParseKeywords(const std::string &keyword) {
   std::unordered_set<std::string> existed;
   std::vector<std::string> result;
@@ -44,7 +43,6 @@ std::vector<std::string> ParseKeywords(const std::string &keyword) {
         throw ErrorException();
       } else {
         existed.insert(temp);
-        //std::cout<<temp<<'\n';
         result.push_back(temp);
         temp = "";
       }
@@ -53,13 +51,14 @@ std::vector<std::string> ParseKeywords(const std::string &keyword) {
     }
   }
   if (temp != "" && existed.find(temp) == existed.end()) {
-    //std::cout<<temp<<'\n';
     result.push_back(temp);
   } else {
     throw ErrorException();
   }
   return result;
 }
+
+// check the validity of a keyword string
 bool CheckKeywords(const std::string &keyword) {
   std::unordered_set<std::string> existed;
   std::vector<std::string> result;
@@ -87,14 +86,20 @@ bool CheckKeywords(const std::string &keyword) {
   }
   return true;
 }
-void SingleKeywordCheck(const std::string &keyword) {
-  if (!BookInfoCheck(keyword)) throw ErrorException();
-  if (keyword.find('|') == std::string::npos) throw ErrorException();
+bool SingleKeywordCheck(const std::string &keyword) {
+  if (!BookInfoCheck(keyword)) return false;
+  if (keyword.find('|') != std::string::npos) return false;
+  return true;
 }
+
+/*------------------------Class Book------------------------
+ * store all the necessary information about books, and its
+ * member functions help changing the private members
+ * -------------------------------------------------------*/
 
 class Book {
   friend class Program;
- protected:
+ private:
   char ISBN[21] = "";
   char BookName[61] = "";
   char Author[61] = "";
@@ -108,22 +113,18 @@ class Book {
     storage = 0;
   }
   void ChangeISBN(const std::string &_ISBN) {
-    if (!ISBNCheck(_ISBN)) throw ErrorException();
     memset(ISBN, 0, sizeof(ISBN));
     strcpy(ISBN, _ISBN.c_str());
   }
   void ChangeName(const std::string &_name) {
-    if (!BookInfoCheck(_name)) throw ErrorException();
     memset(BookName, 0, sizeof(BookName));
     strcpy(BookName, _name.c_str());
   }
   void ChangeAuthor(const std::string &_author) {
-    if (!BookInfoCheck(_author)) throw ErrorException();
     memset(Author, 0, sizeof(Author));
     strcpy(Author, _author.c_str());
   }
   void ChangeKeyword(const std::string &_keyword) {
-    if (!BookInfoCheck(_keyword)) throw ErrorException();
     memset(Keyword, 0, sizeof(Keyword));
     strcpy(Keyword, _keyword.c_str());
   }
@@ -140,6 +141,8 @@ class Book {
   friend bool operator!=(const Book &cmp_1, const Book &cmp_2) {
     return (std::string) cmp_1.ISBN != (std::string) cmp_2.ISBN;
   }
+  // operator << of Book
+  // helps output the information of a single Book
   friend std::ostream &operator<<(std::ostream &os, const Book &out) {
     std::cout << std::fixed << std::setprecision(2);
     std::cout << out.ISBN << '\t' << out.BookName << '\t' << out.Author << '\t'
