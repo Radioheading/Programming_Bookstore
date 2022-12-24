@@ -368,8 +368,8 @@ void Program::Modify(const std::vector<std::pair<int, std::string>> &todo) {
       }
       login_stack.back().selected.ChangePrice(StringToDouble(todo[i].second));
     }
-    for (int i : identical) {
-      login_stack[i].selected = login_stack.back().selected;
+    for (int j : identical) {
+      login_stack[j].selected = login_stack.back().selected;
     }
   }
   Input(login_stack.back().selected);
