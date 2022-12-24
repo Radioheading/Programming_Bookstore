@@ -139,7 +139,7 @@ std::vector<std::string> Decompose(const std::string &input) {
     else break;
   }
   for (int j = i; j < input.length(); ++j) {
-    if (input[j] < 32 || input[j] == 127) throw ErrorException();
+    //if (input[j] < 32 || input[j] == 127) throw ErrorException();
     if (input[j] == ' ') {
       if (temp != "") {
         ans.push_back(temp);
