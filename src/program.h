@@ -275,31 +275,34 @@ void Program::Show(const int &way, const std::string &content) {
   if (current_privilege < 1) throw ErrorException();
   std::vector<Book> search;
   if (way == 1) {
-    if (!ISBNCheck(content)) {
+    if (!ISBNCheck(content) && content!="") {
       throw ErrorException();
     }
     search = book_store.Find(content);
   }
   if (way == 2) {
-    if (!BookInfoCheck(content)) {
+    if (!BookInfoCheck(content) && content!="") {
       throw ErrorException();
     }
     search = name_bookstore.Find(content);
   }
   if (way == 3) {
-    if (!BookInfoCheck(content)) {
+    if (!BookInfoCheck(content) && content!="") {
       throw ErrorException();
     }
     search = author_bookstore.Find(content);
   }
   if (way == 4) {
-    if (!SingleKeywordCheck(content)) {
+    if (!SingleKeywordCheck(content) && content!="") {
       throw ErrorException();
     }
     search = keyword_bookstore.Find(content);
   }
   if (search.empty()) std::cout << '\n';
   else {
+    if (content.empty()) {
+      throw ErrorException();
+    }
     for (int i = 0; i < search.size(); ++i) {
       std::cout << search[i];
     }

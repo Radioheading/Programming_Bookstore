@@ -65,7 +65,7 @@ std::pair<int, std::string> ParseShow(const std::string &input) {
     throw ErrorException();
   }
   if (type != 1) {
-    if (input.length() <= i + 2 || input[i] != '"' || input[input.length() - 1] != '"') {
+    if (input.length() < i + 2 || input[i] != '"' || input[input.length() - 1] != '"') {
       throw ErrorException();
     }
     temp = "";
@@ -74,7 +74,7 @@ std::pair<int, std::string> ParseShow(const std::string &input) {
       temp += input[i];
     }
   } else {
-    if (input.length() < i + 1) throw ErrorException();
+    if (input.length() < i) throw ErrorException();
     temp = "";
     for (; i < input.length(); ++i) {
       temp += input[i];
