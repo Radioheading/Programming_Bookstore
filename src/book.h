@@ -105,7 +105,7 @@ class Book {
   char Author[61] = "";
   char Keyword[61] = "";
   double price = 0;
-  int storage = 0;
+  long long storage = 0;
  public:
   Book(const std::string &_ISBN = "") {
     strcpy(ISBN, _ISBN.c_str());

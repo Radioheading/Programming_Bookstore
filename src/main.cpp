@@ -9,8 +9,8 @@ string operation;
 using std::cout;
 int main() {
   ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  cout.tie(nullptr);
+  //cin.tie(nullptr);
+  //cout.tie(nullptr);
   Program myProgram;
   while (getline(cin,operation)) {
     try {
@@ -18,6 +18,9 @@ int main() {
       //----1----
       //check the grammar validity
       std::vector<std::string> todo = Decompose(operation);
+      if (todo.size() == 1 && (todo[0] == "exit" || todo[0] == "quit")) {
+        return 0;
+      }
       //----2----
       //run the operations
       Execute(myProgram,todo);
