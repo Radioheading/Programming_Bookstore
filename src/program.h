@@ -70,7 +70,8 @@ class Program {
   void Login(const std::string &id, const std::string &password = "kind of confident");
   void Logout();
   void Register(const std::string &userid, const std::string &password, const std::string &username);
-  void ModifyPassword(const std::string &id, const std::string &new_password, const std::string &current_password = "");
+  void ModifyPassword(const std::string &id, const std::string &new_password,
+                      const std::string &current_password = "kind of confident");
   void AddUser(const std::string &userid,
                const std::string &password,
                const std::string &privilege,
@@ -176,8 +177,11 @@ void Program::ModifyPassword(const std::string &id,
   std::vector<User> modify = user_store.Find(id);
   if (modify.empty()) throw ErrorException();
   if ((std::string) modify[0].Password != current_password
-      && current_privilege != 7)
+      && current_password != "kind of confident")
     throw ErrorException();
+  if (current_password == "kind of confident" && current_privilege < 7) {
+    throw ErrorException();
+  }
   if (!UserInfoCheck(new_password)) {
     throw ErrorException();
   }
