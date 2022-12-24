@@ -17,6 +17,26 @@
 // func: StringToUnsignedInt
 // check the validity of the string and make it an unsigned
 // integer if it can be converted
+void checkint(const std::string &input)
+{
+  if (input.size() > 10) throw 0;
+  for (int i = 0; i < input.size(); i++)
+    if (input[i] < '0' || input[i] > '9')
+      throw ErrorException();
+}
+
+void checkfloat(const std::string &input)
+{
+  if (input.size() > 13) throw 0;
+  bool point = false;
+  for (int i = 0; i < input.size(); i++)
+  {
+    if (input[i] == '.' && !point && i != 0 && i != input.size()-1)
+      point = true;
+    else if (input[i] < '0' || input[i] > '9')
+      throw ErrorException();
+  }
+}
 int StringToUnsignedInt(const std::string &input) {
   if (input.length() > 10) throw ErrorException();
   long long ans = 0;
@@ -84,7 +104,6 @@ std::pair<int, std::string> ParseShow(const std::string &input) {
 }
 
 std::pair<int, std::string> ParseModify(const std::string &input) {
-  std::unordered_set<std::string> modify_check;
   if (input[0] != '-') {
     throw ErrorException();
   }
@@ -106,10 +125,6 @@ std::pair<int, std::string> ParseModify(const std::string &input) {
   else {
     throw ErrorException();
   }
-  if (modify_check.find(temp) != modify_check.end()) {
-    throw ErrorException();
-  }
-  modify_check.insert(temp);
   if (type != 1 && type != 5) {
     if (input.length() <= i + 2 || input[i] != '"' || input[input.length() - 1] != '"') {
       throw ErrorException();
@@ -230,6 +245,7 @@ void Execute(Program &program, const std::vector<std::string> &input) {
           program.finance.ShowFinance(-1);
         }
         if (input.size() == 3) {
+
           if (input[2][0] == '0') {
             program.finance.ShowFinance(0);
           } else {
@@ -245,6 +261,14 @@ void Execute(Program &program, const std::vector<std::string> &input) {
     std::vector<std::pair<int, std::string>> commands;
     for (int i = 1; i < input.size(); ++i) {
       commands.push_back(ParseModify(input[i]));
+    }
+    std::unordered_set<int> type_check;
+    for (int i = 0; i < commands.size(); ++i) {
+      if (type_check.find(commands[i].first) != type_check.end()) {
+        throw ErrorException();
+      }
+      type_check.insert(commands[i].first);
+      //std::cout<<commands[i].first<<'\n';
     }
     program.Modify(commands);
   }
