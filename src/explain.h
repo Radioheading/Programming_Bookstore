@@ -84,6 +84,7 @@ std::pair<int, std::string> ParseShow(const std::string &input) {
 }
 
 std::pair<int, std::string> ParseModify(const std::string &input) {
+  std::unordered_set<std::string> modify_check;
   if (input[0] != '-') {
     throw ErrorException();
   }
@@ -105,6 +106,10 @@ std::pair<int, std::string> ParseModify(const std::string &input) {
   else {
     throw ErrorException();
   }
+  if (modify_check.find(temp) != modify_check.end()) {
+    throw ErrorException();
+  }
+  modify_check.insert(temp);
   if (type != 1 && type != 5) {
     if (input.length() <= i + 2 || input[i] != '"' || input[input.length() - 1] != '"') {
       throw ErrorException();
