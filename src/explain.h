@@ -230,7 +230,7 @@ void Execute(Program &program, const std::vector<std::string> &input) {
           program.finance.ShowFinance(-1);
         }
         if (input.size() == 3) {
-          if (input[2] == "0") {
+          if (input[2][0] == '0') {
             program.finance.ShowFinance(0);
           } else {
             program.finance.ShowFinance(StringToUnsignedInt(input[2]));
