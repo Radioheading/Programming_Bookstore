@@ -67,7 +67,7 @@ class Program {
   int current_privilege = 0;
   // functions
   Program();
-  void Login(const std::string &id, const std::string &password = "");
+  void Login(const std::string &id, const std::string &password = "kind of confident");
   void Logout();
   void Register(const std::string &userid, const std::string &password, const std::string &username);
   void ModifyPassword(const std::string &id, const std::string &new_password, const std::string &current_password = "");
@@ -133,10 +133,12 @@ void Program::Login(const std::string &id, const std::string &password) {
   if (exist_check.empty()) {
     throw ErrorException();
   } else {
-    if (exist_check[0].Password != password
-        && current_privilege <= exist_check[0].privilege) {
+    if (exist_check[0].Password != password && password != "kind of confident") {
       throw ErrorException();
     } else { // successful Login!
+      if (current_privilege <= exist_check[0].privilege && password == "kind of confident") {
+        throw ErrorException();
+      }
       login_stack.push_back(exist_check[0]);
       current_privilege = exist_check[0].privilege;
     }

@@ -131,7 +131,6 @@ std::unordered_set<std::string> reserved =
      "select", "modify", "import", "show", "log"};
 
 std::vector<std::string> Decompose(const std::string &input) {
-  if (input.length() > 1024) throw ErrorException();
   std::vector<std::string> ans;
   std::string temp = "";
   int i;
