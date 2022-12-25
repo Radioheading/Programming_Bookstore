@@ -6,18 +6,16 @@
 using namespace std;
 
 string operation;
-using std::cout;
 int main() {
-  //freopen("1.in","r",stdin);
+  // freopen("2.in","r",stdin);
+  // freopen("out.txt","w",stdout);
   ios::sync_with_stdio(false);
-  //cin.tie(nullptr);
-  //cout.tie(nullptr);
   Program myProgram;
   while (getline(cin,operation)) {
     try {
-      //cout<<operation<<'\n';
       //----1----
       //check the grammar validity
+      std::cout << operation << '\n';
       if (operation.length() > 1024) throw ErrorException();
       std::vector<std::string> todo = Decompose(operation);
       if (todo.size() == 1 && (todo[0] == "exit" || todo[0] == "quit")) {

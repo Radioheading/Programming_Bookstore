@@ -1,0 +1,2505 @@
+su root sjtu
+select 978-1-942322-26-9
+modify -author="MarcusPierce" -keyword="drudge|dean|fifteen|Knutsen" -price=172.20
+import 1 25.92
+logout
+su smJ3JDAUqy3hg9mVT V4G1qDMnGAYw0l_F
+buy 978-1-72701-942-1 1
+Invalid
+buy 978-1-240-17403-4 1
+Invalid
+buy 978-0-7140-8195-3 1
+74.49
+buy 978-1-56469-772-1 1
+Invalid
+logout
+su ky mT5801UpJNrpd62
+select 978-1-337-84938-8
+import 11 236.56
+select 978-1-337-84938-8
+modify -name="voyage" -author="AlexisAnderson" -price=77.98
+import 1 71.17
+import 37 345.02
+logout
+su X0 RuQjtr3j55SybqEV_KwtV8i7
+buy 978-1-02-182375-5 1
+Invalid
+logout
+su Q8UXf WKUv7O6vmflGdeVe
+buy 978-0-225-17392-5 2
+Invalid
+show -keyword="suitcase"
+978-1-115-78791-8	timepiece	MarcusMiles	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	462.44	0
+978-1-60572-423-2	wean	BarbaraMaldonado	fetid|suitcase	259.77	0
+buy 978-1-72701-942-1 1
+Invalid
+passwd Q8UXf WKUv7O6vmflGdeVe gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+buy 978-1-105-18235-8 25
+Invalid
+buy 978-1-315-63081-6 1
+Invalid
+logout
+su BPU2 MUmYY7A7edSo42zmqb3
+buy 978-1-5474-4694-0 1
+Invalid
+show -ISBN=978-1-02-182375-5
+978-1-02-182375-5	fugue	JeffreyKline	vice|slunk|infimum|glossy	446.43	0
+show -ISBN=978-0-9915218-4-5
+978-0-9915218-4-5	ex	AdamTorres	allele|USIA|cotman|silversmith|bristly	3.77	0
+buy 978-1-240-17403-4 1
+Invalid
+logout
+su eSqlV0GY0kWQYl8lMyK32zXhxq uj7zfGG8vbA1DW1kx
+buy 978-0-06-298064-9 1
+Invalid
+buy 978-1-76142-239-3 1
+Invalid
+buy 978-1-916079-50-2 3
+619.14
+logout
+su IqoOMtefS6k2M5f42kUdmEJkWkTbM3 TlWU0Q02KfD822eM1sa
+buy 978-0-16-786356-4 1
+Invalid
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+select 978-1-337-84938-8
+import 103 9242.04
+modify -author="JenniferNguyen" -keyword="drudge|gut|sibling|toolkit" -price=80.43
+logout
+su clXzwOc9azP25D6FwoCGax7Rlq d5Lcp7
+show -keyword="simian"
+978-1-4099-6562-6	space	RebeccaSimmons	acronym|lobo|Williamsburg|eluate|simian	487.69	0
+buy 978-0-646-18762-4 9
+2976.66
+show -author="CynthiaYoung"
+978-0-523-64519-3	Elena	CynthiaYoung	bourgeoisie|grandchild|globulin	486.48	0
+logout
+su MFnTUY2luoHpcSV6N D
+show -ISBN=978-1-86436-098-1
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+buy 978-0-593-41245-9 1
+Invalid
+show -author="RoseSmith"
+978-0-274-99151-8	parallelogram	RoseSmith	flown|Cantabrigian|whimper|Aeolus	28.70	0
+show -keyword="democrat"
+978-1-295-67550-0	teethe	JenniferNguyen	democrat|prelude|tawny	134.61	0
+passwd MFnTUY2luoHpcSV6N D z_
+logout
+su VtnMF vYpWIIVZjmF1ZKE0yreWk
+buy 978-0-523-64519-3 1
+Invalid
+buy 978-0-314-95765-8 1
+Invalid
+show -name="crayfish"
+978-1-155-21656-0	crayfish	BrettPerry	embarcadero|Leavenworth|emphysema|ignominious|bauble	181.25	0
+buy 978-1-86436-098-1 1
+Invalid
+logout
+su _VcRRlG70h7UgMyLku yYY
+buy 978-1-06-711052-9 1
+Invalid
+passwd _VcRRlG70h7UgMyLku yYY uw
+buy 978-0-689-01468-0 1
+Invalid
+buy 978-1-72701-942-1 1
+Invalid
+buy 978-0-00-390693-6 1
+Invalid
+logout
+su 3ZzcNy_L FvskvUy634boFhTSXHKL__
+show -keyword="mimic"
+978-0-00-390693-6	Vogel	GaryByrd	tallow|kinsmen|mimic|datum	285.14	0
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-1-72701-942-1 1
+Invalid
+show -ISBN=978-1-916079-50-2
+978-1-916079-50-2	Saul	CoreySimmons	scum|dean|rotogravure|fogging	206.38	5
+buy 978-1-79129-595-0 1
+Invalid
+buy 978-1-916079-50-2 5
+1031.90
+show -author="AudreyAyala"
+978-1-171-92943-7	epoxy	AudreyAyala	tenet|briar|Siegel|tonsillitis	355.36	0
+logout
+su smJ3JDAUqy3hg9mVT V4G1qDMnGAYw0l_F
+buy 978-0-603-41078-9 1
+Invalid
+buy 978-1-240-17403-4 1
+Invalid
+show -name="Hibbard"
+978-0-599-24973-8	Hibbard	TeresaGonzalez	avocet|adenoma	365.68	0
+buy 978-0-208-38455-3 1
+17.72
+buy 978-0-225-17392-5 1
+410.72
+logout
+su XyhJ1x bQGD8L9hjAa9XIm9mx4xFlqY9
+buy 978-1-4099-6562-6 1
+Invalid
+buy 978-1-171-92943-7 1
+Invalid
+buy 978-1-346-34801-8 1
+Invalid
+buy 978-1-105-18235-8 24
+Invalid
+logout
+su g ertoapXvf_omQE
+show -name="Fritz"
+978-1-05-485874-8	Fritz	ChristopherCastro	cabdriver|cutover|Canaan	91.71	0
+logout
+su jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P
+buy 978-1-76142-239-3 1
+Invalid
+buy 978-1-60572-423-2 1
+Invalid
+buy 978-1-76142-239-3 1
+Invalid
+logout
+su n9J9nkftp0iU7Eutg97M45Y0RK Jb2YV9JeyFgmRLl8eka_
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-1-76142-239-3 1
+Invalid
+show -name="voyage"
+978-1-337-84938-8	voyage	JenniferNguyen	drudge|gut|sibling|toolkit	80.43	152
+logout
+su EFpjq705QVSRq G0
+passwd siQ TGG2RnulUej66CXm_u 24f7wC
+Invalid
+logout
+su ky mT5801UpJNrpd62
+select 978-0-646-18762-4
+import 14 5700.78
+select 978-1-06-711052-9
+import 6 329.15
+modify -author="ChristopherMcdonald" -keyword="Carolingian|ladyfern|cabdriver|concurred" -price=214.24
+select 978-1-60572-423-2
+modify -name="Emil" -author="DuaneJohnson" -keyword="contaminate" -price=216.09
+import 15 1543.43
+import 20 2981.18
+logout
+su LCv1TmFSikSyVOHZFtnJMVxq9c D
+buy 978-1-56469-772-1 1
+Invalid
+logout
+su xgpLu1ZxsLzmYwFO4 a
+buy 978-1-76142-239-3 1
+Invalid
+logout
+su 3CtLr_wr satsEYVYdr
+buy 978-0-06-298064-9 1
+Invalid
+show -author="JeffreyKline"
+978-1-02-182375-5	fugue	JeffreyKline	vice|slunk|infimum|glossy	446.43	0
+logout
+su BPU2 MUmYY7A7edSo42zmqb3
+show -author="KarenGriffin"
+978-0-689-01468-0	Perez	KarenGriffin	fault|wrasse	160.29	0
+logout
+su ky mT5801UpJNrpd62
+select 978-0-593-41245-9
+import 9 2384.54
+import 10 2309.65
+logout
+su CqqzxzBXwUNyERe0lTwT 58Mq54h
+show -ISBN=978-1-346-34801-8
+978-1-346-34801-8	accipiter	KristenWheeler	stinkpot|embarcadero|it'd|Purina|anarchy	127.58	0
+buy 978-1-352-86616-2 1
+Invalid
+passwd CqqzxzBXwUNyERe0lTwT 58Mq54h LsZPmOEv6E
+logout
+su N67qm0yIC1QPft2 ktPdYzU_qZ4d3K
+logout
+su 3ZzcNy_L FvskvUy634boFhTSXHKL__
+logout
+su VtnMF vYpWIIVZjmF1ZKE0yreWk
+passwd VtnMF vYpWIIVZjmF1ZKE0yreWk QtKFs7A1zh
+buy 978-0-00-390693-6 1
+Invalid
+logout
+su 9nFyYbi MEzvYlKbI8ERCwy_prK
+logout
+su EFpjq705QVSRq G0
+show -keyword="tawny"
+978-1-295-67550-0	teethe	JenniferNguyen	democrat|prelude|tawny	134.61	0
+978-1-72701-942-1	Hans	VanessaSullivan	acidulate|tawny|poor|masonry	208.62	0
+show -name="hove"
+978-0-7140-8195-3	hove	MichaelMarquez	clue|manage|woodruff	74.49	0
+show -keyword="plywood"
+978-1-883394-66-0	bien	DonnaSutton	iceman|torque|impracticable|plywood|annihilate	13.34	0
+buy 978-1-337-84938-8 76
+6112.68
+logout
+su n9J9nkftp0iU7Eutg97M45Y0RK Jb2YV9JeyFgmRLl8eka_
+passwd WiEKy7rSENFdfZfcDm7L4uRXZn A6KSMwG_DFDHl aXk3H
+Invalid
+buy 978-1-05-485874-8 1
+Invalid
+logout
+su T2CxaIm RTmuTymQxkg_l3iPjnLPhcwOO9fj
+buy 978-1-315-63081-6 1
+Invalid
+logout
+su xgpLu1ZxsLzmYwFO4 a
+logout
+su T2CxaIm RTmuTymQxkg_l3iPjnLPhcwOO9fj
+buy 978-1-916079-50-2 1
+Invalid
+show -author="JulieMcmahon"
+978-0-16-786356-4	Derbyshire	JulieMcmahon	Borden|toxin	432.10	0
+buy 978-0-17-033264-4 1
+Invalid
+buy 978-0-603-41078-9 1
+Invalid
+buy 978-1-56469-772-1 1
+Invalid
+buy 978-0-690-83534-2 1
+Invalid
+buy 978-1-72701-942-1 1
+Invalid
+logout
+su s81xQ Yr4xRaizUviV
+show -name="Po"
+978-1-315-63081-6	Po	TeresaHudson	grew|dice	478.33	0
+logout
+su n9J9nkftp0iU7Eutg97M45Y0RK Jb2YV9JeyFgmRLl8eka_
+buy 978-1-105-18235-8 15
+3587.85
+buy 978-0-691-78619-3 1
+384.90
+buy 978-1-60572-423-2 16
+3457.44
+buy 978-1-261-24156-2 1
+Invalid
+buy 978-1-315-63081-6 1
+Invalid
+show -author="TerriNichols"
+978-0-09-311956-8	Barrymore	TerriNichols	tympanum|speedup|it'd|Gogh|buckhorn	310.71	0
+buy 978-0-603-41078-9 1
+Invalid
+buy 978-1-66988-567-2 1
+Invalid
+buy 978-0-274-99151-8 1
+Invalid
+buy 978-1-295-67550-0 1
+Invalid
+logout
+su 7IWyyeYM7XUSbUe164hQ WuWgGuwRrqzTR908hq19iXUGhF
+select 978-1-66988-567-2
+import 7 2560.23
+select 978-0-9915218-4-5
+import 20 22.16
+select 978-0-690-83534-2
+modify -name="sommelier" -keyword="toenail|Shmuel" -price=285.83
+import 8 1292.30
+select 978-1-337-84938-8
+modify -author="SarahCox" -price=317.43
+modify -name="Hindu" -author="SandraBailey" -price=393.93
+select 978-0-17-033264-4
+modify -author="BarbaraMaldonado" -price=447.05
+logout
+su z1Vvj iYp
+logout
+su g ertoapXvf_omQE
+buy 978-1-171-92943-7 1
+Invalid
+show -author="DuaneJohnson"
+978-1-60572-423-2	Emil	DuaneJohnson	contaminate	216.09	19
+show -name="nab"
+978-0-06-298064-9	nab	ValerieGraves	wave	373.46	0
+buy 978-0-691-78619-3 1
+Invalid
+logout
+su qkG lKUUZpwKKjNmrjgPV0
+show -author="JulieMcmahon"
+978-0-16-786356-4	Derbyshire	JulieMcmahon	Borden|toxin	432.10	0
+buy 978-0-691-78619-3 1
+Invalid
+buy 978-1-79129-595-0 1
+Invalid
+show -ISBN=978-0-691-78619-3
+978-0-691-78619-3	Blackwell	SheilaGarcia	billow	384.90	0
+buy 978-0-593-41245-9 2
+955.70
+buy 978-0-690-83534-2 2
+571.66
+logout
+su T2CxaIm RTmuTymQxkg_l3iPjnLPhcwOO9fj
+buy 978-1-315-63081-6 1
+Invalid
+buy 978-1-66988-567-2 8
+Invalid
+passwd T2CxaIm RTmuTymQxkg_l3iPjnLPhcwOO9fj dm4pxWaLfSW9ydVbLAY6rTamI5
+logout
+su CqqzxzBXwUNyERe0lTwT LsZPmOEv6E
+buy 978-0-691-78619-3 1
+Invalid
+buy 978-0-7140-8195-3 1
+Invalid
+passwd CqqzxzBXwUNyERe0lTwT LsZPmOEv6E 9eKBcCBXZ8
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f hoBbwmi21aPVLm9L2BJ0
+logout
+su a75FHSGUaxvoYLvUIpfxXZG 1j7a3np0vOrzpJwkh
+buy 978-0-603-41078-9 1
+Invalid
+buy 978-0-274-99151-8 1
+Invalid
+logout
+su smJ3JDAUqy3hg9mVT V4G1qDMnGAYw0l_F
+logout
+su LCv1TmFSikSyVOHZFtnJMVxq9c D
+logout
+su r4XSv MUTXNznbRpFU
+select 978-1-76142-239-3
+import 8 3048.35
+select 978-1-883394-66-0
+import 3 29.80
+select 978-0-00-390693-6
+import 4 98.54
+select 978-0-208-38455-3
+modify -name="deluxe" -author="GlennMoon" -keyword="tonsillitis|iceman" -price=131.50
+import 20 1797.01
+modify -name="o'clock" -author="SandraBailey" -keyword="rotogravure"
+modify -name="Saracen" -author="JulieMcmahon" -price=276.40
+select 978-1-261-24156-2
+import 9 21.33
+logout
+su UmuUj09hn8OdO8R6Le2YEIWEyI CfUJCnkbO6ES30WimgOVgJs7ld8ag
+buy 978-1-60572-423-2 15
+3241.35
+buy 978-0-7140-8195-3 1
+Invalid
+show -keyword="permafrost"
+978-1-142-72822-9	yule	LaurieHendricks	permafrost	435.63	0
+978-1-317-29754-3	stalwart	DennisRogers	sleight|contaminate|tenet|permafrost|Caviness	253.51	1
+show -keyword="acronym"
+978-0-17-033264-4	psychopathic	BarbaraMaldonado	rasa|acronym|emphysema|pontificate	447.05	0
+978-1-4099-6562-6	space	RebeccaSimmons	acronym|lobo|Williamsburg|eluate|simian	487.69	0
+buy 978-1-56469-772-1 1
+Invalid
+show -author="JenniferNguyen"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	9
+978-1-295-67550-0	teethe	JenniferNguyen	democrat|prelude|tawny	134.61	0
+logout
+su JtVB2LWnNx6Y4Ji UvTNm6djqxCU
+buy 978-1-05-485874-8 1
+Invalid
+buy 978-0-691-78619-3 1
+Invalid
+buy 978-1-352-86616-2 1
+Invalid
+show -author="CynthiaYoung"
+978-0-523-64519-3	Elena	CynthiaYoung	bourgeoisie|grandchild|globulin	486.48	0
+buy 978-1-05-485874-8 1
+Invalid
+buy 978-1-06-711052-9 5
+1071.20
+passwd JtVB2LWnNx6Y4Ji UvTNm6djqxCU y4455oDE9VjvEVY7gJkMON6MSB
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-0-16-786356-4 1
+Invalid
+buy 978-1-02-182375-5 1
+Invalid
+buy 978-1-115-78791-8 1
+Invalid
+buy 978-1-317-29754-3 2
+Invalid
+buy 978-1-883394-66-0 3
+40.02
+buy 978-1-352-86616-2 1
+Invalid
+show -author="ChristopherCastro"
+978-1-05-485874-8	Fritz	ChristopherCastro	cabdriver|cutover|Canaan	91.71	0
+buy 978-0-603-41078-9 1
+Invalid
+show -keyword="contaminate"
+978-1-317-29754-3	stalwart	DennisRogers	sleight|contaminate|tenet|permafrost|Caviness	253.51	1
+978-1-60572-423-2	Emil	DuaneJohnson	contaminate	216.09	4
+passwd JtVB2LWnNx6Y4Ji y4455oDE9VjvEVY7gJkMON6MSB SoWxZ75yTOn39750uK
+show -ISBN=978-0-243-39359-6
+978-0-243-39359-6	turnabout	AdamTorres	peak|fanatic|imp|slunk|conjoin	207.94	0
+buy 978-0-208-38455-3 8
+2211.20
+show -keyword="torque"
+978-0-225-17392-5	endothermic	ChadWalkerMD	toxin|parochial|resuscitate|torque	410.72	0
+978-1-883394-66-0	bien	DonnaSutton	iceman|torque|impracticable|plywood|annihilate	13.34	0
+buy 978-1-352-86616-2 1
+Invalid
+show -ISBN=978-1-56469-772-1
+978-1-56469-772-1	incarcerate	ValerieGraves	windup|trainman|cabdriver	310.13	0
+logout
+su a75FHSGUaxvoYLvUIpfxXZG 1j7a3np0vOrzpJwkh
+buy 978-1-142-72822-9 1
+Invalid
+logout
+su IqoOMtefS6k2M5f42kUdmEJkWkTbM3 TlWU0Q02KfD822eM1sa
+buy 978-1-06-711052-9 1
+214.24
+buy 978-0-593-41245-9 15
+7167.75
+buy 978-1-79129-595-0 1
+Invalid
+logout
+su T2CxaIm dm4pxWaLfSW9ydVbLAY6rTamI5
+show -ISBN=978-1-337-84938-8
+978-1-337-84938-8	Hindu	SandraBailey	drudge|gut|sibling|toolkit	393.93	76
+passwd T2CxaIm dm4pxWaLfSW9ydVbLAY6rTamI5 ctwGsDLpkiNY0y7U
+show -ISBN=978-1-105-18235-8
+978-1-105-18235-8	Mizar	DanaGonzalez	collapsible|malfeasant|pamphlet	239.19	8
+show -ISBN=978-0-7140-8195-3
+978-0-7140-8195-3	hove	MichaelMarquez	clue|manage|woodruff	74.49	0
+show -ISBN=978-1-295-67550-0
+978-1-295-67550-0	teethe	JenniferNguyen	democrat|prelude|tawny	134.61	0
+logout
+su a75FHSGUaxvoYLvUIpfxXZG 1j7a3np0vOrzpJwkh
+logout
+su d_WO8YOQbabbqdbrqh 0wkjdBsU
+buy 978-1-06-711052-9 1
+Invalid
+logout
+su r4XSv MUTXNznbRpFU
+select 978-1-261-24156-2
+import 7 7.06
+import 39 268.04
+logout
+su uepWvr7SAjMfoPthPjpa9XDtSfvpj B
+show -ISBN=978-1-142-72822-9
+978-1-142-72822-9	yule	LaurieHendricks	permafrost	435.63	0
+buy 978-1-5474-4694-0 1
+Invalid
+buy 978-1-115-78791-8 1
+Invalid
+buy 978-1-105-18235-8 3
+717.57
+buy 978-1-115-78791-8 1
+Invalid
+buy 978-1-346-34801-8 1
+Invalid
+show -author="AdamTorres"
+978-0-243-39359-6	turnabout	AdamTorres	peak|fanatic|imp|slunk|conjoin	207.94	0
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	29
+978-0-9915218-4-5	ex	AdamTorres	allele|USIA|cotman|silversmith|bristly	3.77	20
+buy 978-0-09-311956-8 1
+Invalid
+buy 978-1-261-24156-2 29
+178.64
+show -author="ValerieGraves"
+978-0-06-298064-9	nab	ValerieGraves	wave	373.46	0
+978-1-56469-772-1	incarcerate	ValerieGraves	windup|trainman|cabdriver	310.13	0
+logout
+su EFpjq705QVSRq G0
+show -author="MarcusMiles"
+978-1-115-78791-8	timepiece	MarcusMiles	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	462.44	0
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+passwd EFpjq705QVSRq G0 5q55fnP0k65KdlIlFb
+show -author="DuaneJohnson"
+978-1-60572-423-2	Emil	DuaneJohnson	contaminate	216.09	4
+show -name="space"
+978-1-4099-6562-6	space	RebeccaSimmons	acronym|lobo|Williamsburg|eluate|simian	487.69	0
+logout
+su ky mT5801UpJNrpd62
+select 978-0-16-786356-4
+import 14 4246.34
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs 1NKPjZfZ4oB5TwhpWXUved3tu
+buy 978-0-690-83534-2 3
+857.49
+buy 978-1-942322-26-9 2
+344.40
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+buy 978-1-883394-66-0 1
+Invalid
+logout
+su EFpjq705QVSRq 5q55fnP0k65KdlIlFb
+logout
+su qkG lKUUZpwKKjNmrjgPV0
+show -keyword="wave"
+978-0-06-298064-9	nab	ValerieGraves	wave	373.46	0
+buy 978-1-115-78791-8 1
+Invalid
+show -keyword="briar"
+978-1-171-92943-7	epoxy	AudreyAyala	tenet|briar|Siegel|tonsillitis	355.36	0
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs 1NKPjZfZ4oB5TwhpWXUved3tu
+show -name="patina"
+978-1-942322-26-9	patina	MarcusPierce	drudge|dean|fifteen|Knutsen	172.20	1
+buy 978-0-208-38455-3 7
+1934.80
+logout
+su VtnMF QtKFs7A1zh
+buy 978-1-240-17403-4 1
+Invalid
+passwd VtnMF QtKFs7A1zh djMhx3zzmb7IgJFGaTsplf3
+show -keyword="bauble"
+978-1-155-21656-0	crayfish	BrettPerry	embarcadero|Leavenworth|emphysema|ignominious|bauble	181.25	0
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	26
+show -author="JacobAnthony"
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	0
+978-1-66988-567-2	roost	JacobAnthony	corrupt|dignity|fatty	390.25	7
+logout
+su v3H1_fuOfPV2U_EYRGAPkYYR 0E
+buy 978-0-00-390693-6 4
+1140.56
+logout
+su xgpLu1ZxsLzmYwFO4 a
+passwd xgpLu1ZxsLzmYwFO4 a iR9FH9r
+passwd xgpLu1ZxsLzmYwFO4 iR9FH9r cAC3Kvf_yzhZBT647duOOOdlrjieBL
+logout
+su jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P
+buy 978-1-346-34801-8 1
+Invalid
+buy 978-1-115-78791-8 1
+Invalid
+buy 978-0-523-64519-3 1
+Invalid
+buy 978-0-646-18762-4 4
+1322.96
+buy 978-0-593-41245-9 2
+955.70
+logout
+su clXzwOc9azP25D6FwoCGax7Rlq d5Lcp7
+buy 978-1-916079-50-2 1
+Invalid
+buy 978-1-4099-6562-6 1
+Invalid
+buy 978-0-00-390693-6 1
+Invalid
+buy 978-1-315-63081-6 1
+Invalid
+logout
+su 8i6 i9cUyaIQYy5Ea6pTNj4H
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-0-9915218-4-5 16
+60.32
+logout
+su MFnTUY2luoHpcSV6N z_
+logout
+su LCv1TmFSikSyVOHZFtnJMVxq9c D
+buy 978-0-00-390693-6 1
+Invalid
+logout
+su eSqlV0GY0kWQYl8lMyK32zXhxq uj7zfGG8vbA1DW1kx
+buy 978-0-208-38455-3 8
+Invalid
+buy 978-0-225-17392-5 1
+Invalid
+buy 978-1-79129-595-0 1
+Invalid
+passwd ABCL0qaRaF6s tnZgoTyRK2C4 5nZciLBhp5TnP9xK7RxQhwBtpyS
+Invalid
+show -name="ex"
+978-0-9915218-4-5	ex	AdamTorres	allele|USIA|cotman|silversmith|bristly	3.77	4
+logout
+su UmuUj09hn8OdO8R6Le2YEIWEyI CfUJCnkbO6ES30WimgOVgJs7ld8ag
+buy 978-1-60572-423-2 3
+648.27
+buy 978-1-05-485874-8 1
+Invalid
+buy 978-1-4099-6562-6 1
+Invalid
+show -keyword="Thea"
+978-0-593-41245-9	ARPA	BrettPerry	night|prelude|funeral|Thea|pow	477.85	0
+show -name="switchman"
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	25
+show -keyword="wrasse"
+978-0-689-01468-0	Perez	KarenGriffin	fault|wrasse	160.29	0
+show -name="Po"
+978-1-315-63081-6	Po	TeresaHudson	grew|dice	478.33	0
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+logout
+su JtVB2LWnNx6Y4Ji SoWxZ75yTOn39750uK
+buy 978-1-346-34801-8 1
+Invalid
+buy 978-1-261-24156-2 20
+123.20
+buy 978-1-240-17403-4 1
+Invalid
+buy 978-0-523-64519-3 1
+Invalid
+logout
+su 8i6 i9cUyaIQYy5Ea6pTNj4H
+buy 978-0-16-786356-4 16
+Invalid
+show -ISBN=978-1-66988-567-2
+978-1-66988-567-2	roost	JacobAnthony	corrupt|dignity|fatty	390.25	7
+passwd eSqlV0GY0kWQYl8lMyK32zXhxq uj7zfGG8vbA1DW1kx vLXHTFzkjpuiXkeENJxavC
+buy 978-1-02-182375-5 1
+Invalid
+show -ISBN=978-0-689-01468-0
+978-0-689-01468-0	Perez	KarenGriffin	fault|wrasse	160.29	0
+show -author="JenniferNguyen"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	6
+978-1-295-67550-0	teethe	JenniferNguyen	democrat|prelude|tawny	134.61	0
+logout
+su MFnTUY2luoHpcSV6N z_
+passwd MFnTUY2luoHpcSV6N z_ V0lF8Bq88xXaECsnXPiTwpQA07
+buy 978-1-56469-772-1 1
+Invalid
+show -ISBN=978-1-06-711052-9
+978-1-06-711052-9	mount	ChristopherMcdonald	Carolingian|ladyfern|cabdriver|concurred	214.24	0
+show -ISBN=978-1-115-78791-8
+978-1-115-78791-8	timepiece	MarcusMiles	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	462.44	0
+show -name="nab"
+978-0-06-298064-9	nab	ValerieGraves	wave	373.46	0
+buy 978-1-06-711052-9 1
+Invalid
+buy 978-1-115-78791-8 1
+Invalid
+buy 978-0-646-18762-4 11
+3638.14
+buy 978-0-690-83534-2 1
+285.83
+logout
+su BPU2 MUmYY7A7edSo42zmqb3
+buy 978-1-171-92943-7 1
+Invalid
+buy 978-1-171-92943-7 1
+Invalid
+logout
+su R9WCkh8NXkjujp3a o_E56P2H6X2ln8PSqS1zM0a7cJL
+show -author="JenniferNguyen"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	6
+978-1-295-67550-0	teethe	JenniferNguyen	democrat|prelude|tawny	134.61	0
+buy 978-1-79129-595-0 1
+Invalid
+buy 978-0-274-99151-8 1
+Invalid
+logout
+su IqoOMtefS6k2M5f42kUdmEJkWkTbM3 TlWU0Q02KfD822eM1sa
+buy 978-0-9915218-4-5 1
+3.77
+show -ISBN=978-1-06-711052-9
+978-1-06-711052-9	mount	ChristopherMcdonald	Carolingian|ladyfern|cabdriver|concurred	214.24	0
+buy 978-1-261-24156-2 3
+18.48
+passwd IqoOMtefS6k2M5f42kUdmEJkWkTbM3 TlWU0Q02KfD822eM1sa 5yTDo47
+show -author="JacobAnthony"
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	0
+978-1-66988-567-2	roost	JacobAnthony	corrupt|dignity|fatty	390.25	7
+show -ISBN=978-1-76142-239-3
+978-1-76142-239-3	keen	TammyLewis	impracticable	305.68	8
+passwd IqoOMtefS6k2M5f42kUdmEJkWkTbM3 5yTDo47 zRxHIYdSDrn3p9gtiV5am
+buy 978-1-115-78791-8 1
+Invalid
+logout
+su root sjtu
+select 978-1-883394-66-0
+import 8 55.55
+passwd EFpjq705QVSRq Lvqykn8vTs6rP
+select 978-0-599-24973-8
+import 18 158.23
+logout
+su v3H1_fuOfPV2U_EYRGAPkYYR 0E
+show -author="DennisRogers"
+978-1-317-29754-3	stalwart	DennisRogers	sleight|contaminate|tenet|permafrost|Caviness	253.51	1
+logout
+su tL_ nBx9kJ86O
+buy 978-1-56469-772-1 1
+Invalid
+buy 978-0-690-83534-2 2
+571.66
+buy 978-0-7140-8195-3 1
+Invalid
+buy 978-1-317-29754-3 2
+Invalid
+buy 978-1-06-711052-9 1
+Invalid
+logout
+su IqoOMtefS6k2M5f42kUdmEJkWkTbM3 zRxHIYdSDrn3p9gtiV5am
+logout
+su R9WCkh8NXkjujp3a o_E56P2H6X2ln8PSqS1zM0a7cJL
+show -author="VanessaSullivan"
+978-1-352-86616-2	known	VanessaSullivan	sentiment|compare|Malay|Knutsen|Ceres	197.15	0
+978-1-72701-942-1	Hans	VanessaSullivan	acidulate|tawny|poor|masonry	208.62	0
+buy 978-1-66988-567-2 8
+Invalid
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f hoBbwmi21aPVLm9L2BJ0
+buy 978-1-72701-942-1 1
+Invalid
+buy 978-1-56469-772-1 1
+Invalid
+show -name="sommelier"
+978-0-690-83534-2	sommelier	SuzanneTaylorDVM	toenail|Shmuel	285.83	0
+logout
+su d_WO8YOQbabbqdbrqh 0wkjdBsU
+show -author="ChristopherMcdonald"
+978-1-06-711052-9	mount	ChristopherMcdonald	Carolingian|ladyfern|cabdriver|concurred	214.24	0
+buy 978-0-17-033264-4 1
+Invalid
+passwd d_WO8YOQbabbqdbrqh 0wkjdBsU pXTAniDR9K9
+buy 978-0-14-218624-4 2
+687.20
+show -name="Mizar"
+978-1-105-18235-8	Mizar	DanaGonzalez	collapsible|malfeasant|pamphlet	239.19	5
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-1-66988-567-2 2
+780.50
+buy 978-1-66988-567-2 5
+1951.25
+passwd d_WO8YOQbabbqdbrqh pXTAniDR9K9 q0lyvnWYOtizw
+passwd d_WO8YOQbabbqdbrqh q0lyvnWYOtizw W2m8wxcuhBdgHMtL87JlRC
+logout
+su _Z5agy sqJQ8Ursu0GI
+select 978-0-14-218624-4
+modify -keyword="fogging"
+modify -name="diet" -keyword="alia|lubricity|serape|depression" -price=113.78
+logout
+su g ertoapXvf_omQE
+buy 978-1-72701-942-1 1
+Invalid
+buy 978-1-916079-50-2 1
+Invalid
+buy 978-1-60572-423-2 1
+216.09
+show -name="Saul"
+978-1-916079-50-2	Saul	CoreySimmons	scum|dean|rotogravure|fogging	206.38	0
+buy 978-1-72701-942-1 1
+Invalid
+buy 978-0-523-64519-3 1
+Invalid
+buy 978-0-10-496646-4 1
+Invalid
+buy 978-0-599-24973-8 1
+365.68
+logout
+su siQ yDiWNcin_lCKy
+buy 978-1-105-18235-8 5
+1195.95
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-0-14-218624-4 6
+Invalid
+buy 978-1-02-182375-5 1
+Invalid
+logout
+su YmD6ctfZq6uDosj3IOne6 ywSOfm44kd4TgeG_ORUsYdmQJ
+logout
+su jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P
+buy 978-1-317-29754-3 2
+Invalid
+show -ISBN=978-0-06-298064-9
+978-0-06-298064-9	nab	ValerieGraves	wave	373.46	0
+buy 978-1-942322-26-9 1
+172.20
+buy 978-1-115-78791-8 1
+Invalid
+buy 978-1-352-86616-2 1
+Invalid
+passwd VtnMF djMhx3zzmb7IgJFGaTsplf3 43cLtmrhH7WkdSACw
+logout
+su ky mT5801UpJNrpd62
+select 978-0-274-99151-8
+import 20 322.73
+modify -name="Raritan" -author="HeidiHaynes" -keyword="proclamation" -price=330.41
+logout
+su BPU2 MUmYY7A7edSo42zmqb3
+buy 978-1-155-21656-0 1
+Invalid
+show -name="endothermic"
+978-0-225-17392-5	endothermic	ChadWalkerMD	toxin|parochial|resuscitate|torque	410.72	0
+buy 978-0-7140-8195-3 1
+Invalid
+buy 978-1-79129-595-0 1
+Invalid
+buy 978-0-314-95765-8 1
+Invalid
+logout
+su T2CxaIm ctwGsDLpkiNY0y7U
+buy 978-0-603-41078-9 1
+Invalid
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs 1NKPjZfZ4oB5TwhpWXUved3tu
+show -ISBN=978-1-76142-239-3
+978-1-76142-239-3	keen	TammyLewis	impracticable	305.68	8
+buy 978-0-689-01468-0 1
+Invalid
+buy 978-1-317-29754-3 2
+Invalid
+buy 978-0-16-786356-4 1
+432.10
+show -ISBN=978-0-17-033264-4
+978-0-17-033264-4	psychopathic	BarbaraMaldonado	rasa|acronym|emphysema|pontificate	447.05	0
+show -ISBN=978-1-155-21656-0
+978-1-155-21656-0	crayfish	BrettPerry	embarcadero|Leavenworth|emphysema|ignominious|bauble	181.25	0
+buy 978-1-66988-567-2 1
+Invalid
+show -ISBN=978-1-337-84938-8
+978-1-337-84938-8	Hindu	SandraBailey	drudge|gut|sibling|toolkit	393.93	76
+show -author="MarcusMiles"
+978-1-115-78791-8	timepiece	MarcusMiles	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	462.44	0
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs 1NKPjZfZ4oB5TwhpWXUved3tu
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs 1NKPjZfZ4oB5TwhpWXUved3tu d0Ejw22hl8x0x
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs d0Ejw22hl8x0x jMOoLnKxxC2iRgv8I4WxarQWj
+buy 978-1-79129-595-0 1
+Invalid
+show -keyword="angstrom"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	3
+passwd VtnMF 43cLtmrhH7WkdSACw sVF4Y1lDEy1K92Dk
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs jMOoLnKxxC2iRgv8I4WxarQWj n1L9n9AlmBxQEas
+buy 978-0-10-496646-4 1
+Invalid
+logout
+su 2gTqaP8Xme0e tlq7N6GHAXHksAC
+select 978-1-942322-26-9
+import 18 1760.84
+modify -name="Nelsen" -author="ElizabethHarris" -keyword="cupboard|falloff|fault|alabaster"
+logout
+su r4XSv MUTXNznbRpFU
+select 978-1-56469-772-1
+import 15 1212.63
+select 978-1-66988-567-2
+import 17 3436.98
+import 46 944.24
+import 131 38698.56
+import 85 38519.77
+import 208 16322.34
+select 978-1-05-485874-8
+import 2 150.88
+modify -price=340.79
+import 19 330.17
+select 978-1-72701-942-1
+modify -keyword="foxtail|Harlan|Quixote|Thea" -price=248.23
+import 1 219.15
+select 978-0-523-64519-3
+import 4 1216.34
+import 16 1479.90
+logout
+su n9J9nkftp0iU7Eutg97M45Y0RK Jb2YV9JeyFgmRLl8eka_
+logout
+su VtnMF sVF4Y1lDEy1K92Dk
+buy 978-1-261-24156-2 1
+6.16
+show -name="Nelsen"
+978-1-942322-26-9	Nelsen	ElizabethHarris	cupboard|falloff|fault|alabaster	172.20	18
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f hoBbwmi21aPVLm9L2BJ0
+show -author="JulieMcmahon"
+978-0-16-786356-4	Derbyshire	JulieMcmahon	Borden|toxin	432.10	13
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	7
+show -ISBN=978-1-916079-50-2
+978-1-916079-50-2	Saul	CoreySimmons	scum|dean|rotogravure|fogging	206.38	0
+logout
+su r4XSv MUTXNznbRpFU
+select 978-1-315-63081-6
+modify -author="RebeccaSimmons" -keyword="seduction" -price=208.46
+select 978-1-115-78791-8
+import 18 839.78
+modify -name="glare" -author="TiffanyCampos" -price=317.27
+import 41 9404.08
+logout
+su YmD6ctfZq6uDosj3IOne6 ywSOfm44kd4TgeG_ORUsYdmQJ
+show -name="Po"
+978-1-315-63081-6	Po	RebeccaSimmons	seduction	208.46	0
+buy 978-0-599-24973-8 8
+2925.44
+show -keyword="rotogravure"
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	7
+978-1-916079-50-2	Saul	CoreySimmons	scum|dean|rotogravure|fogging	206.38	0
+show -keyword="tonsillitis"
+978-1-171-92943-7	epoxy	AudreyAyala	tenet|briar|Siegel|tonsillitis	355.36	0
+show -author="JohnAdams"
+978-1-5474-4694-0	Yuki	JohnAdams	dignity	438.47	0
+buy 978-1-261-24156-2 1
+6.16
+buy 978-1-76142-239-3 5
+1528.40
+buy 978-0-603-41078-9 1
+Invalid
+logout
+su 3CtLr_wr satsEYVYdr
+show -ISBN=978-1-315-63081-6
+978-1-315-63081-6	Po	RebeccaSimmons	seduction	208.46	0
+show -name="crayfish"
+978-1-155-21656-0	crayfish	BrettPerry	embarcadero|Leavenworth|emphysema|ignominious|bauble	181.25	0
+buy 978-1-76142-239-3 2
+611.36
+show -ISBN=978-0-14-218624-4
+978-0-14-218624-4	diet	RebeccaWhite	alia|lubricity|serape|depression	113.78	5
+buy 978-0-14-218624-4 2
+227.56
+buy 978-0-16-786356-4 6
+2592.60
+show -ISBN=978-1-346-34801-8
+978-1-346-34801-8	accipiter	KristenWheeler	stinkpot|embarcadero|it'd|Purina|anarchy	127.58	0
+buy 978-0-17-033264-4 1
+Invalid
+buy 978-1-171-92943-7 1
+Invalid
+logout
+su n9J9nkftp0iU7Eutg97M45Y0RK Jb2YV9JeyFgmRLl8eka_
+show -name="psychopathic"
+978-0-17-033264-4	psychopathic	BarbaraMaldonado	rasa|acronym|emphysema|pontificate	447.05	0
+passwd YmD6ctfZq6uDosj3IOne6 ywSOfm44kd4TgeG_ORUsYdmQJ iFZhdWuqVrYwvnabxsT
+logout
+su jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P
+buy 978-0-689-01468-0 1
+Invalid
+show -author="ValerieGraves"
+978-0-06-298064-9	nab	ValerieGraves	wave	373.46	0
+978-1-56469-772-1	incarcerate	ValerieGraves	windup|trainman|cabdriver	310.13	15
+logout
+su z1Vvj iYp
+buy 978-1-942322-26-9 18
+3099.60
+buy 978-1-05-485874-8 2
+681.58
+passwd z1Vvj iYp uvnd8wA12WNoBuLTBP226_
+logout
+su LCv1TmFSikSyVOHZFtnJMVxq9c D
+passwd LCv1TmFSikSyVOHZFtnJMVxq9c D nxAvRrnwCs0VhPl8AfpeeYc
+passwd LCv1TmFSikSyVOHZFtnJMVxq9c nxAvRrnwCs0VhPl8AfpeeYc jNzO7FOfALU44Kv7
+logout
+su R9WCkh8NXkjujp3a o_E56P2H6X2ln8PSqS1zM0a7cJL
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+buy 978-1-337-84938-8 19
+7484.67
+logout
+su 9nFyYbi MEzvYlKbI8ERCwy_prK
+logout
+su Puo3J66 Yn9Q2JwGnCt22xjP
+buy 978-0-225-17392-5 1
+Invalid
+show -author="SandraBailey"
+978-1-337-84938-8	Hindu	SandraBailey	drudge|gut|sibling|toolkit	393.93	57
+passwd Puo3J66 Yn9Q2JwGnCt22xjP W_o
+buy 978-1-295-67550-0 1
+Invalid
+logout
+su siQ yDiWNcin_lCKy
+show -author="KarenGriffin"
+978-0-689-01468-0	Perez	KarenGriffin	fault|wrasse	160.29	0
+logout
+su z E70GKfaw3T
+show -author="DonnaSutton"
+978-1-883394-66-0	bien	DonnaSutton	iceman|torque|impracticable|plywood|annihilate	13.34	8
+buy 978-1-346-34801-8 1
+Invalid
+show -keyword="resuscitate"
+978-0-225-17392-5	endothermic	ChadWalkerMD	toxin|parochial|resuscitate|torque	410.72	0
+buy 978-0-523-64519-3 13
+6324.24
+logout
+su z E70GKfaw3T
+show -name="ARPA"
+978-0-593-41245-9	ARPA	BrettPerry	night|prelude|funeral|Thea|pow	477.85	0
+logout
+su n9J9nkftp0iU7Eutg97M45Y0RK Jb2YV9JeyFgmRLl8eka_
+buy 978-1-142-72822-9 1
+Invalid
+passwd X0 RuQjtr3j55SybqEV_KwtV8i7 Rt4ET9XpYbuuHv0dGu
+buy 978-1-942322-26-9 1
+Invalid
+logout
+su _VcRRlG70h7UgMyLku uw
+buy 978-0-314-95765-8 1
+Invalid
+show -keyword="collapsible"
+978-1-105-18235-8	Mizar	DanaGonzalez	collapsible|malfeasant|pamphlet	239.19	0
+logout
+su _Z5agy sqJQ8Ursu0GI
+select 978-0-523-64519-3
+import 32 7507.96
+modify -name="razorback" -author="AudreyCarterDVM" -keyword="grew|fogging|conduce|ellipsis"
+select 978-0-06-298064-9
+import 12 184.81
+select 978-1-295-67550-0
+modify -name="couturier" -author="JohnAdams" -keyword="elsewhere|anthracnose|Edwardine"
+import 18 218.70
+logout
+su a75FHSGUaxvoYLvUIpfxXZG 1j7a3np0vOrzpJwkh
+logout
+su R9WCkh8NXkjujp3a o_E56P2H6X2ln8PSqS1zM0a7cJL
+passwd R9WCkh8NXkjujp3a o_E56P2H6X2ln8PSqS1zM0a7cJL IiZx_uJoiz
+show -keyword="gut"
+978-1-337-84938-8	Hindu	SandraBailey	drudge|gut|sibling|toolkit	393.93	57
+buy 978-1-315-63081-6 1
+Invalid
+buy 978-1-56469-772-1 6
+1860.78
+buy 978-0-599-24973-8 3
+1097.04
+logout
+su s81xQ Yr4xRaizUviV
+buy 978-0-16-786356-4 5
+2160.50
+buy 978-1-86436-098-1 1
+Invalid
+buy 978-1-72701-942-1 1
+248.23
+show -ISBN=978-0-243-39359-6
+978-0-243-39359-6	turnabout	AdamTorres	peak|fanatic|imp|slunk|conjoin	207.94	0
+show -author="AdamTorres"
+978-0-243-39359-6	turnabout	AdamTorres	peak|fanatic|imp|slunk|conjoin	207.94	0
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	14
+978-0-9915218-4-5	ex	AdamTorres	allele|USIA|cotman|silversmith|bristly	3.77	3
+buy 978-0-208-38455-3 8
+Invalid
+show -keyword="permafrost"
+978-1-142-72822-9	yule	LaurieHendricks	permafrost	435.63	0
+978-1-317-29754-3	stalwart	DennisRogers	sleight|contaminate|tenet|permafrost|Caviness	253.51	1
+logout
+su jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P
+logout
+su X0 Rt4ET9XpYbuuHv0dGu
+buy 978-1-56469-772-1 2
+620.26
+buy 978-0-00-390693-6 1
+Invalid
+buy 978-1-86436-098-1 1
+Invalid
+logout
+su d_WO8YOQbabbqdbrqh W2m8wxcuhBdgHMtL87JlRC
+passwd d_WO8YOQbabbqdbrqh W2m8wxcuhBdgHMtL87JlRC De5JadetwqITQA7Nsv9W2Ky3pUZ
+logout
+su smJ3JDAUqy3hg9mVT V4G1qDMnGAYw0l_F
+logout
+su d_WO8YOQbabbqdbrqh De5JadetwqITQA7Nsv9W2Ky3pUZ
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+buy 978-0-599-24973-8 3
+1097.04
+logout
+su 7IWyyeYM7XUSbUe164hQ WuWgGuwRrqzTR908hq19iXUGhF
+select 978-1-916079-50-2
+modify -name="cancer" -author="LoriRussell" -price=476.63
+import 12 64.07
+import 28 10012.98
+import 37 1509.53
+import 154 50300.72
+modify -name="weed" -author="CynthiaRogers" -keyword="muslim|conjoin|grew|pamphlet|teeing"
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs n1L9n9AlmBxQEas
+logout
+su N67qm0yIC1QPft2 ktPdYzU_qZ4d3K
+show -keyword="cabdriver"
+978-1-05-485874-8	Fritz	ChristopherCastro	cabdriver|cutover|Canaan	340.79	19
+978-1-06-711052-9	mount	ChristopherMcdonald	Carolingian|ladyfern|cabdriver|concurred	214.24	0
+978-1-56469-772-1	incarcerate	ValerieGraves	windup|trainman|cabdriver	310.13	7
+buy 978-0-599-24973-8 3
+1097.04
+buy 978-1-72701-942-1 1
+Invalid
+passwd N67qm0yIC1QPft2 ktPdYzU_qZ4d3K 7bwLivL1BHkXuE4dUo93a
+buy 978-1-315-63081-6 1
+Invalid
+logout
+su JtVB2LWnNx6Y4Ji SoWxZ75yTOn39750uK
+buy 978-0-9915218-4-5 4
+Invalid
+buy 978-1-346-34801-8 1
+Invalid
+show -keyword="rotogravure"
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	7
+logout
+su root sjtu
+select 978-0-06-298064-9
+import 7 3225.16
+select 978-1-261-24156-2
+import 17 4.76
+import 5 16.28
+logout
+su ViBE68mfGdwaCefpR2wCulr57u JSFAZ_l7MxnA7Tgi4
+buy 978-1-79129-595-0 1
+Invalid
+logout
+su r4XSv MUTXNznbRpFU
+select 978-1-05-485874-8
+import 54 13351.52
+modify -name="Betsey" -author="SeanDavis" -keyword="alabaster|boycott|wasn't|tallow|proclamation" -price=325.19
+import 35 11352.04
+logout
+su _VcRRlG70h7UgMyLku uw
+passwd R43Cpitq7C3bPDcr_Bf9c85f hoBbwmi21aPVLm9L2BJ0 fxA8
+buy 978-0-16-786356-4 1
+432.10
+logout
+su T2CxaIm ctwGsDLpkiNY0y7U
+logout
+su s81xQ Yr4xRaizUviV
+buy 978-1-337-84938-8 35
+13787.55
+buy 978-0-7140-8195-3 1
+Invalid
+show -keyword="proclamation"
+978-0-274-99151-8	Raritan	HeidiHaynes	proclamation	330.41	20
+978-1-05-485874-8	Betsey	SeanDavis	alabaster|boycott|wasn't|tallow|proclamation	325.19	108
+buy 978-1-56469-772-1 4
+1240.52
+show -ISBN=978-1-60572-423-2
+978-1-60572-423-2	Emil	DuaneJohnson	contaminate	216.09	0
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+select 978-0-243-39359-6
+modify -name="doubtful" -author="SarahReed" -keyword="rotogravure|bijection" -price=388.72
+logout
+su _Z5agy sqJQ8Ursu0GI
+select 978-0-646-18762-4
+import 17 2099.80
+import 31 12446.88
+import 83 24594.70
+import 56 3451.88
+logout
+su ky mT5801UpJNrpd62
+select 978-1-883394-66-0
+modify -name="throughput" -keyword="dice|it'd|ahem|laze"
+import 7 66.46
+import 1 6.24
+logout
+su XyhJ1x bQGD8L9hjAa9XIm9mx4xFlqY9
+logout
+su R9WCkh8NXkjujp3a IiZx_uJoiz
+logout
+su X0 Rt4ET9XpYbuuHv0dGu
+show -ISBN=978-0-10-496646-4
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	0
+buy 978-1-346-34801-8 1
+Invalid
+show -keyword="scum"
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	201
+buy 978-1-295-67550-0 18
+2422.98
+show -ISBN=978-1-56469-772-1
+978-1-56469-772-1	incarcerate	ValerieGraves	windup|trainman|cabdriver	310.13	3
+show -author="BrettPerry"
+978-0-593-41245-9	ARPA	BrettPerry	night|prelude|funeral|Thea|pow	477.85	0
+978-1-155-21656-0	crayfish	BrettPerry	embarcadero|Leavenworth|emphysema|ignominious|bauble	181.25	0
+logout
+su XyhJ1x bQGD8L9hjAa9XIm9mx4xFlqY9
+show -author="DanaGonzalez"
+978-1-105-18235-8	Mizar	DanaGonzalez	collapsible|malfeasant|pamphlet	239.19	0
+buy 978-1-337-84938-8 6
+2363.58
+buy 978-0-603-41078-9 1
+Invalid
+buy 978-0-09-311956-8 1
+Invalid
+buy 978-1-79129-595-0 1
+Invalid
+buy 978-0-314-95765-8 1
+Invalid
+logout
+su g ertoapXvf_omQE
+buy 978-0-17-033264-4 1
+Invalid
+buy 978-0-9915218-4-5 1
+3.77
+logout
+su g ertoapXvf_omQE
+show -author="TiffanyCampos"
+978-1-115-78791-8	glare	TiffanyCampos	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	317.27	59
+buy 978-1-315-63081-6 1
+Invalid
+show -author="SandraBailey"
+978-1-337-84938-8	Hindu	SandraBailey	drudge|gut|sibling|toolkit	393.93	16
+buy 978-0-16-786356-4 1
+432.10
+buy 978-1-883394-66-0 10
+133.40
+show -keyword="proclamation"
+978-0-274-99151-8	Raritan	HeidiHaynes	proclamation	330.41	20
+978-1-05-485874-8	Betsey	SeanDavis	alabaster|boycott|wasn't|tallow|proclamation	325.19	108
+show -name="yule"
+978-1-142-72822-9	yule	LaurieHendricks	permafrost	435.63	0
+buy 978-1-337-84938-8 3
+1181.79
+buy 978-0-14-218624-4 4
+Invalid
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+buy 978-0-646-18762-4 147
+48618.78
+logout
+su smJ3JDAUqy3hg9mVT V4G1qDMnGAYw0l_F
+buy 978-1-317-29754-3 1
+253.51
+buy 978-1-315-63081-6 1
+Invalid
+buy 978-1-883394-66-0 6
+80.04
+buy 978-1-66988-567-2 344
+134246.00
+show -keyword="alabaster"
+978-1-05-485874-8	Betsey	SeanDavis	alabaster|boycott|wasn't|tallow|proclamation	325.19	108
+978-1-942322-26-9	Nelsen	ElizabethHarris	cupboard|falloff|fault|alabaster	172.20	0
+buy 978-0-243-39359-6 1
+Invalid
+logout
+su g ertoapXvf_omQE
+logout
+su JtVB2LWnNx6Y4Ji SoWxZ75yTOn39750uK
+show -keyword="rotogravure"
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	7
+978-0-243-39359-6	doubtful	SarahReed	rotogravure|bijection	388.72	0
+logout
+su 7IWyyeYM7XUSbUe164hQ WuWgGuwRrqzTR908hq19iXUGhF
+select 978-0-691-78619-3
+modify -author="RoseSmith" -keyword="vibrant|playful|tolerate|contretemps" -price=424.70
+modify -name="entry" -keyword="legend|impracticable|booze|strenuous" -price=355.84
+select 978-1-76142-239-3
+modify -name="spastic" -keyword="alabaster|mother|fallout|hail|seduction" -price=124.10
+modify -name="Doherty" -author="RachelHernandez" -keyword="teeing|pontificate|must|Malay|Diocletian" -price=63.33
+modify -name="scuttle" -author="ShawnLucero"
+import 10 602.87
+select 978-1-60572-423-2
+modify -name="pessimist" -keyword="teet|Ceres" -price=486.36
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+select 978-1-142-72822-9
+import 18 2922.41
+modify -name="progression" -keyword="Hepburn|interim" -price=201.13
+import 34 5930.84
+select 978-0-314-95765-8
+import 18 2368.93
+modify -name="squeegee" -author="JacobHurley" -price=137.98
+logout
+su _VcRRlG70h7UgMyLku uw
+buy 978-1-72701-942-1 1
+Invalid
+buy 978-0-593-41245-9 1
+Invalid
+buy 978-1-352-86616-2 1
+Invalid
+buy 978-0-10-496646-4 1
+Invalid
+buy 978-1-5474-4694-0 1
+Invalid
+logout
+su IqoOMtefS6k2M5f42kUdmEJkWkTbM3 zRxHIYdSDrn3p9gtiV5am
+passwd IqoOMtefS6k2M5f42kUdmEJkWkTbM3 zRxHIYdSDrn3p9gtiV5am vPmsrM1TvvidE7fx
+show -ISBN=978-1-66988-567-2
+978-1-66988-567-2	roost	JacobAnthony	corrupt|dignity|fatty	390.25	143
+buy 978-0-06-298064-9 4
+1493.84
+show -author="RebeccaWhite"
+978-0-14-218624-4	diet	RebeccaWhite	alia|lubricity|serape|depression	113.78	3
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+select 978-1-346-34801-8
+import 11 81.01
+select 978-1-337-84938-8
+import 30 9381.46
+modify -name="teen" -author="BarbaraMaldonado" -price=115.88
+modify -author="DeannaSmith" -keyword="human|strabismus" -price=1.63
+import 52 34.54
+select 978-1-155-21656-0
+modify -name="Neal" -author="ElizabethHarris" -keyword="executrix|Purina|emphysema|Knutsen|Gideon" -price=467.46
+modify -keyword="simper|Buxtehude" -price=268.98
+select 978-0-689-01468-0
+import 17 2835.99
+logout
+su _Z5agy sqJQ8Ursu0GI
+select 978-1-142-72822-9
+import 46 6592.28
+select 978-0-10-496646-4
+import 17 648.32
+import 47 3252.51
+select 978-0-9915218-4-5
+import 21 90.14
+select 978-1-883394-66-0
+modify -name="rip" -price=67.42
+select 978-1-916079-50-2
+modify -name="weird" -author="JohnAdams" -keyword="tolerate"
+import 394 197311.07
+logout
+su ky mT5801UpJNrpd62
+select 978-1-05-485874-8
+modify -name="levee" -author="JulieMcmahon" -keyword="plywood|contaminate" -price=300.88
+select 978-1-916079-50-2
+modify -name="Saskatoon" -keyword="Haines" -price=250.62
+select 978-1-883394-66-0
+import 20 1371.02
+import 8 411.96
+logout
+su z1Vvj uvnd8wA12WNoBuLTBP226_
+buy 978-0-314-95765-8 13
+1793.74
+show -keyword="pert"
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	54
+buy 978-1-02-182375-5 1
+Invalid
+buy 978-1-155-21656-0 1
+Invalid
+logout
+su T2CxaIm ctwGsDLpkiNY0y7U
+show -name="saturable"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	23
+logout
+su uepWvr7SAjMfoPthPjpa9XDtSfvpj B
+show -author="AudreyCarterDVM"
+978-0-523-64519-3	razorback	AudreyCarterDVM	grew|fogging|conduce|ellipsis	486.48	39
+buy 978-0-17-033264-4 1
+Invalid
+show -name="Nelsen"
+978-1-942322-26-9	Nelsen	ElizabethHarris	cupboard|falloff|fault|alabaster	172.20	0
+buy 978-1-346-34801-8 3
+382.74
+buy 978-1-337-84938-8 70
+114.10
+buy 978-1-66988-567-2 22
+8585.50
+buy 978-0-14-218624-4 3
+341.34
+logout
+su N67qm0yIC1QPft2 7bwLivL1BHkXuE4dUo93a
+buy 978-1-05-485874-8 40
+12035.20
+buy 978-0-274-99151-8 12
+3964.92
+passwd N67qm0yIC1QPft2 7bwLivL1BHkXuE4dUo93a f5AZ0Otn0caQ1yo3kYjLuQ70j
+logout
+su xgpLu1ZxsLzmYwFO4 cAC3Kvf_yzhZBT647duOOOdlrjieBL
+show -ISBN=978-1-5474-4694-0
+978-1-5474-4694-0	Yuki	JohnAdams	dignity	438.47	0
+show -author="JeffreyKline"
+978-1-02-182375-5	fugue	JeffreyKline	vice|slunk|infimum|glossy	446.43	0
+show -name="Neal"
+978-1-155-21656-0	Neal	ElizabethHarris	simper|Buxtehude	268.98	0
+buy 978-0-7140-8195-3 1
+Invalid
+logout
+su VtnMF sVF4Y1lDEy1K92Dk
+buy 978-1-66988-567-2 43
+16780.75
+buy 978-1-05-485874-8 15
+4513.20
+passwd VtnMF sVF4Y1lDEy1K92Dk FP2hJZH7c
+logout
+su root sjtu
+select 978-0-10-496646-4
+import 94 6878.89
+logout
+su 9nFyYbi MEzvYlKbI8ERCwy_prK
+logout
+su d_WO8YOQbabbqdbrqh De5JadetwqITQA7Nsv9W2Ky3pUZ
+buy 978-1-79129-595-0 1
+Invalid
+passwd v3H1_fuOfPV2U_EYRGAPkYYR DmDobWLQAAuZxBJa87 xCNCXdfNPtf1ROYF5TJRvhyr
+Invalid
+show -keyword="Haines"
+978-1-916079-50-2	Saskatoon	JohnAdams	Haines	250.62	625
+buy 978-1-155-21656-0 1
+Invalid
+logout
+su Puo3J66 W_o
+logout
+su 7IWyyeYM7XUSbUe164hQ WuWgGuwRrqzTR908hq19iXUGhF
+select 978-1-56469-772-1
+modify -name="step" -author="GaryByrd" -keyword="equipotent|silversmith|glossy|seal|gleam" -price=404.59
+select 978-1-72701-942-1
+import 17 680.34
+import 22 883.02
+select 978-1-171-92943-7
+import 4 1123.39
+select 978-1-942322-26-9
+import 5 613.76
+logout
+su EFpjq705QVSRq Lvqykn8vTs6rP
+buy 978-0-603-41078-9 1
+Invalid
+show -keyword="scum"
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	54
+show -ISBN=978-1-346-34801-8
+978-1-346-34801-8	accipiter	KristenWheeler	stinkpot|embarcadero|it'd|Purina|anarchy	127.58	8
+buy 978-1-346-34801-8 3
+382.74
+buy 978-0-16-786356-4 1
+Invalid
+show -ISBN=978-1-06-711052-9
+978-1-06-711052-9	mount	ChristopherMcdonald	Carolingian|ladyfern|cabdriver|concurred	214.24	0
+buy 978-1-86436-098-1 1
+Invalid
+buy 978-0-593-41245-9 1
+Invalid
+buy 978-1-60572-423-2 1
+Invalid
+passwd EFpjq705QVSRq Lvqykn8vTs6rP aBRsqFIFXj89rs
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f fxA8
+logout
+su ky mT5801UpJNrpd62
+select 978-0-646-18762-4
+import 107 35342.17
+select 978-1-142-72822-9
+import 187 26638.88
+modify -name="they'll" -author="ShellySalinas" -keyword="boast|seduction|bauble|Harlan|yank" -price=413.36
+select 978-0-06-298064-9
+modify -name="Ragusan" -author="AllisonThompson" -price=331.95
+select 978-1-155-21656-0
+modify -name="Ithaca" -author="MarissaGarza" -keyword="fallout|rocket|Ceres" -price=183.50
+logout
+su root sjtu
+passwd EFpjq705QVSRq OGgS4ZP79o6HKoiOKuPD6qSc
+select 978-0-9915218-4-5
+modify -name="Coventry" -keyword="muslim|Blackman|woodruff|Bennington|Micky" -price=466.78
+select 978-0-208-38455-3
+import 20 3632.34
+passwd g NhTREEWGg1i
+delete IqoOMtefS6k2M5f42kUdmEJkWkTbM3
+select 978-0-690-83534-2
+import 14 591.41
+import 33 1375.55
+useradd SBiCVQB26gcl3q1QoShDc CElni 1 ElizabethBradley
+select 978-1-916079-50-2
+import 632 92154.11
+import 1032 257210.78
+import 2936 2491.92
+delete X0
+delete n9J9nkftp0iU7Eutg97M45Y0RK
+select 978-0-9915218-4-5
+modify -name="puck" -author="ValerieGraves" -keyword="Cantabrigian|mineralogy|conjoin|iceman|descriptive"
+useradd WGnf3g8t1r Kowl4LgemzAmtKj9QIBS4Kz2NfJa 3 DawnMedina
+delete _VcRRlG70h7UgMyLku
+delete WiEKy7rSENFdfZfcDm7L4uRXZn
+logout
+register dbGaqLhKkj3F64jxJbrXmW8GW5zu 7tYEFdfd8e4luM JessicaReyes
+su WGnf3g8t1r Kowl4LgemzAmtKj9QIBS4Kz2NfJa
+useradd X0p7bCioR0BCg8jcXz 0yUllC8D5M4r3b1q0E8kV7p 1 VirginiaTodd
+useradd aW jrOqSAuQZG6xe6L 1 ElizabethBailey
+select 978-1-171-92943-7
+import 7 46.57
+logout
+su d_WO8YOQbabbqdbrqh De5JadetwqITQA7Nsv9W2Ky3pUZ
+show -name="space"
+978-1-4099-6562-6	space	RebeccaSimmons	acronym|lobo|Williamsburg|eluate|simian	487.69	0
+show -author="MarcusMiles"
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+passwd d_WO8YOQbabbqdbrqh De5JadetwqITQA7Nsv9W2Ky3pUZ LhvrQ9M
+buy 978-0-593-41245-9 1
+Invalid
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+logout
+su 3ZzcNy_L FvskvUy634boFhTSXHKL__
+buy 978-0-17-033264-4 1
+Invalid
+buy 978-0-09-311956-8 1
+Invalid
+buy 978-1-916079-50-2 2438
+611011.56
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs n1L9n9AlmBxQEas
+buy 978-1-115-78791-8 48
+15228.96
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+logout
+su r4XSv MUTXNznbRpFU
+select 978-1-352-86616-2
+modify -name="starfish" -author="JaniceLe" -keyword="bauble" -price=43.97
+logout
+su YmD6ctfZq6uDosj3IOne6 iFZhdWuqVrYwvnabxsT
+buy 978-0-689-01468-0 11
+1763.19
+logout
+su BPU2 MUmYY7A7edSo42zmqb3
+passwd BPU2 MUmYY7A7edSo42zmqb3 qS0qcy1EfGmqYYZYO
+buy 978-0-523-64519-3 23
+11189.04
+logout
+su 2gTqaP8Xme0e tlq7N6GHAXHksAC
+select 978-1-317-29754-3
+import 19 4208.01
+logout
+su JtVB2LWnNx6Y4Ji SoWxZ75yTOn39750uK
+buy 978-0-603-41078-9 1
+Invalid
+passwd JtVB2LWnNx6Y4Ji SoWxZ75yTOn39750uK qEcjngbtXk
+logout
+su BPU2 qS0qcy1EfGmqYYZYO
+logout
+su ky mT5801UpJNrpd62
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f fxA8
+logout
+su VtnMF FP2hJZH7c
+buy 978-1-105-18235-8 1
+Invalid
+buy 978-0-06-298064-9 3
+995.85
+logout
+su BPU2 qS0qcy1EfGmqYYZYO
+show -name="altimeter"
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	158
+buy 978-1-337-84938-8 5
+8.15
+buy 978-0-16-786356-4 1
+Invalid
+buy 978-0-690-83534-2 35
+10004.05
+logout
+su 3ZzcNy_L FvskvUy634boFhTSXHKL__
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs FU iEL1deaClsvwNr0NqhRWO_qQ5
+Invalid
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+show -keyword="toxin"
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	158
+978-0-16-786356-4	Derbyshire	JulieMcmahon	Borden|toxin	432.10	0
+978-0-225-17392-5	endothermic	ChadWalkerMD	toxin|parochial|resuscitate|torque	410.72	0
+buy 978-1-315-63081-6 1
+Invalid
+logout
+su X0p7bCioR0BCg8jcXz 0yUllC8D5M4r3b1q0E8kV7p
+buy 978-0-06-298064-9 3
+995.85
+show -keyword="Siegel"
+978-1-171-92943-7	epoxy	AudreyAyala	tenet|briar|Siegel|tonsillitis	355.36	11
+show -author="GeorgeMunoz"
+978-0-603-41078-9	knelt	GeorgeMunoz	Chinese|weasel|allele|pine	118.13	0
+logout
+su CqqzxzBXwUNyERe0lTwT 9eKBcCBXZ8
+buy 978-1-66988-567-2 34
+13268.50
+buy 978-0-7140-8195-3 1
+Invalid
+passwd CqqzxzBXwUNyERe0lTwT 9eKBcCBXZ8 0nS9E0eO_VJLbRqPfOTneztD5tjaF
+show -author="SarahReed"
+978-0-243-39359-6	doubtful	SarahReed	rotogravure|bijection	388.72	0
+buy 978-0-10-496646-4 39
+2379.78
+show -author="JacobHurley"
+978-0-314-95765-8	squeegee	JacobHurley	Diocletian|woodruff|must|clash	137.98	5
+show -author="MichaelMarquez"
+978-0-7140-8195-3	hove	MichaelMarquez	clue|manage|woodruff	74.49	0
+buy 978-1-942322-26-9 1
+172.20
+buy 978-0-689-01468-0 2
+320.58
+logout
+su XyhJ1x bQGD8L9hjAa9XIm9mx4xFlqY9
+show -keyword="Caviness"
+978-1-317-29754-3	stalwart	DennisRogers	sleight|contaminate|tenet|permafrost|Caviness	253.51	19
+buy 978-1-56469-772-1 4
+Invalid
+logout
+su LCv1TmFSikSyVOHZFtnJMVxq9c jNzO7FOfALU44Kv7
+buy 978-1-66988-567-2 40
+15610.00
+buy 978-1-240-17403-4 1
+Invalid
+logout
+su R9WCkh8NXkjujp3a IiZx_uJoiz
+passwd R9WCkh8NXkjujp3a IiZx_uJoiz eq9ayU3HKhunR0OMo45AdBBL9ijGZ
+show -keyword="dignity"
+978-1-5474-4694-0	Yuki	JohnAdams	dignity	438.47	0
+978-1-66988-567-2	roost	JacobAnthony	corrupt|dignity|fatty	390.25	4
+buy 978-1-171-92943-7 6
+2132.16
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f fxA8
+logout
+su qkG lKUUZpwKKjNmrjgPV0
+buy 978-0-00-390693-6 1
+Invalid
+buy 978-1-72701-942-1 8
+1985.84
+logout
+su N67qm0yIC1QPft2 f5AZ0Otn0caQ1yo3kYjLuQ70j
+show -name="pessimist"
+978-1-60572-423-2	pessimist	DuaneJohnson	teet|Ceres	486.36	0
+buy 978-1-56469-772-1 1
+404.59
+logout
+su CqqzxzBXwUNyERe0lTwT 0nS9E0eO_VJLbRqPfOTneztD5tjaF
+buy 978-1-72701-942-1 8
+1985.84
+logout
+su 3ZzcNy_L FvskvUy634boFhTSXHKL__
+show -author="SuzanneTaylorDVM"
+978-0-690-83534-2	sommelier	SuzanneTaylorDVM	toenail|Shmuel	285.83	12
+buy 978-1-66988-567-2 3
+1170.75
+show -keyword="ultra"
+978-1-115-78791-8	glare	TiffanyCampos	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	317.27	11
+buy 978-1-105-18235-8 1
+Invalid
+logout
+su xgpLu1ZxsLzmYwFO4 cAC3Kvf_yzhZBT647duOOOdlrjieBL
+show -name="saturable"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	23
+logout
+su 8i6 i9cUyaIQYy5Ea6pTNj4H
+show -author="JacobAnthony"
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	119
+978-1-66988-567-2	roost	JacobAnthony	corrupt|dignity|fatty	390.25	1
+show -ISBN=978-1-261-24156-2
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	23
+buy 978-1-66988-567-2 2
+Invalid
+buy 978-1-352-86616-2 1
+Invalid
+buy 978-0-689-01468-0 3
+480.87
+logout
+su X0p7bCioR0BCg8jcXz 0yUllC8D5M4r3b1q0E8kV7p
+buy 978-0-225-17392-5 1
+Invalid
+buy 978-0-208-38455-3 12
+3316.80
+show -ISBN=978-0-10-496646-4
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	119
+show -author="GaryByrd"
+978-0-00-390693-6	Vogel	GaryByrd	tallow|kinsmen|mimic|datum	285.14	0
+978-1-56469-772-1	step	GaryByrd	equipotent|silversmith|glossy|seal|gleam	404.59	2
+show -keyword="ahem"
+978-1-883394-66-0	rip	DonnaSutton	dice|it'd|ahem|laze	67.42	28
+buy 978-1-60572-423-2 1
+Invalid
+show -author="KerryWilson"
+978-1-79129-595-0	odium	KerryWilson	bowl|parochial	72.01	0
+logout
+su v3H1_fuOfPV2U_EYRGAPkYYR 0E
+logout
+su d_WO8YOQbabbqdbrqh LhvrQ9M
+buy 978-1-79129-595-0 1
+Invalid
+buy 978-0-17-033264-4 1
+Invalid
+logout
+su 8i6 i9cUyaIQYy5Ea6pTNj4H
+passwd 8i6 i9cUyaIQYy5Ea6pTNj4H 1SbpLnZfCW6PBvqa6IAf3vhRbhQitA
+logout
+su uepWvr7SAjMfoPthPjpa9XDtSfvpj B
+logout
+su YmD6ctfZq6uDosj3IOne6 iFZhdWuqVrYwvnabxsT
+buy 978-0-09-311956-8 1
+Invalid
+buy 978-1-60572-423-2 1
+Invalid
+show -author="AdamTorres"
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	161
+show -name="stalwart"
+978-1-317-29754-3	stalwart	DennisRogers	sleight|contaminate|tenet|permafrost|Caviness	253.51	19
+show -ISBN=978-0-16-786356-4
+978-0-16-786356-4	Derbyshire	JulieMcmahon	Borden|toxin	432.10	0
+buy 978-0-16-786356-4 1
+Invalid
+buy 978-1-317-29754-3 10
+2535.10
+passwd a75FHSGUaxvoYLvUIpfxXZG 1j7a3np0vOrzpJwkh IXs
+show -author="JohnAdams"
+978-1-295-67550-0	couturier	JohnAdams	elsewhere|anthracnose|Edwardine	134.61	0
+978-1-5474-4694-0	Yuki	JohnAdams	dignity	438.47	0
+978-1-916079-50-2	Saskatoon	JohnAdams	Haines	250.62	2787
+logout
+su MFnTUY2luoHpcSV6N V0lF8Bq88xXaECsnXPiTwpQA07
+buy 978-0-00-390693-6 1
+Invalid
+show -keyword="human"
+978-1-337-84938-8	teen	DeannaSmith	human|strabismus	1.63	20
+buy 978-1-56469-772-1 3
+Invalid
+buy 978-0-593-41245-9 1
+Invalid
+buy 978-1-05-485874-8 15
+4513.20
+show -keyword="fault"
+978-0-689-01468-0	Perez	KarenGriffin	fault|wrasse	160.29	1
+978-1-942322-26-9	Nelsen	ElizabethHarris	cupboard|falloff|fault|alabaster	172.20	4
+logout
+su 3ZzcNy_L FvskvUy634boFhTSXHKL__
+show -name="Vogel"
+978-0-00-390693-6	Vogel	GaryByrd	tallow|kinsmen|mimic|datum	285.14	0
+logout
+su tL_ nBx9kJ86O
+show -ISBN=978-1-72701-942-1
+978-1-72701-942-1	Hans	VanessaSullivan	foxtail|Harlan|Quixote|Thea	248.23	23
+buy 978-0-208-38455-3 9
+2487.60
+buy 978-1-261-24156-2 23
+141.68
+passwd tL_ nBx9kJ86O ZAQ4qxDygWb5oBZRdHR
+show -keyword="must"
+978-0-314-95765-8	squeegee	JacobHurley	Diocletian|woodruff|must|clash	137.98	5
+978-1-76142-239-3	scuttle	ShawnLucero	teeing|pontificate|must|Malay|Diocletian	63.33	11
+show -author="JulieMcmahon"
+978-0-16-786356-4	Derbyshire	JulieMcmahon	Borden|toxin	432.10	0
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	6
+978-1-05-485874-8	levee	JulieMcmahon	plywood|contaminate	300.88	38
+buy 978-0-14-218624-4 1
+Invalid
+logout
+su z1Vvj uvnd8wA12WNoBuLTBP226_
+buy 978-0-691-78619-3 1
+Invalid
+buy 978-1-240-17403-4 1
+Invalid
+passwd z1Vvj uvnd8wA12WNoBuLTBP226_ 03vuCfX
+show -author="GaryByrd"
+978-0-00-390693-6	Vogel	GaryByrd	tallow|kinsmen|mimic|datum	285.14	0
+978-1-56469-772-1	step	GaryByrd	equipotent|silversmith|glossy|seal|gleam	404.59	2
+buy 978-0-646-18762-4 177
+Invalid
+buy 978-1-155-21656-0 1
+Invalid
+show -keyword="cavern"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	0
+buy 978-0-274-99151-8 4
+1321.64
+passwd z1Vvj 03vuCfX LUUqchUboaw
+logout
+su UmuUj09hn8OdO8R6Le2YEIWEyI CfUJCnkbO6ES30WimgOVgJs7ld8ag
+logout
+su z E70GKfaw3T
+buy 978-0-689-01468-0 2
+Invalid
+logout
+su smJ3JDAUqy3hg9mVT V4G1qDMnGAYw0l_F
+buy 978-0-689-01468-0 1
+160.29
+passwd smJ3JDAUqy3hg9mVT V4G1qDMnGAYw0l_F KmNGMPPo2NKqxM8c
+buy 978-0-208-38455-3 2
+552.80
+buy 978-1-66988-567-2 2
+Invalid
+buy 978-1-5474-4694-0 1
+Invalid
+logout
+su s81xQ Yr4xRaizUviV
+show -name="disc"
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+buy 978-0-691-78619-3 1
+Invalid
+passwd VtnMF FP2hJZH7c 7FCoc7
+buy 978-1-352-86616-2 1
+Invalid
+show -ISBN=978-1-337-84938-8
+978-1-337-84938-8	teen	DeannaSmith	human|strabismus	1.63	20
+show -ISBN=978-0-208-38455-3
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	4
+show -author="RebeccaSimmons"
+978-1-315-63081-6	Po	RebeccaSimmons	seduction	208.46	0
+978-1-4099-6562-6	space	RebeccaSimmons	acronym|lobo|Williamsburg|eluate|simian	487.69	0
+passwd s81xQ Yr4xRaizUviV Fk2rED8AIjlW2GW20G
+buy 978-0-243-39359-6 1
+Invalid
+passwd s81xQ Fk2rED8AIjlW2GW20G pKi
+buy 978-0-06-298064-9 3
+995.85
+show -keyword="it'd"
+978-0-09-311956-8	Barrymore	TerriNichols	tympanum|speedup|it'd|Gogh|buckhorn	310.71	0
+978-1-346-34801-8	accipiter	KristenWheeler	stinkpot|embarcadero|it'd|Purina|anarchy	127.58	5
+978-1-883394-66-0	rip	DonnaSutton	dice|it'd|ahem|laze	67.42	28
+buy 978-0-646-18762-4 130
+42996.20
+buy 978-1-295-67550-0 1
+Invalid
+buy 978-0-225-17392-5 1
+Invalid
+buy 978-1-155-21656-0 1
+Invalid
+buy 978-1-02-182375-5 1
+Invalid
+passwd s81xQ pKi uZTH0LzNp12y8nJRwW5Hqg
+logout
+su CqqzxzBXwUNyERe0lTwT 0nS9E0eO_VJLbRqPfOTneztD5tjaF
+buy 978-1-5474-4694-0 1
+Invalid
+show -ISBN=978-0-243-39359-6
+978-0-243-39359-6	doubtful	SarahReed	rotogravure|bijection	388.72	0
+show -ISBN=978-1-105-18235-8
+978-1-105-18235-8	Mizar	DanaGonzalez	collapsible|malfeasant|pamphlet	239.19	0
+buy 978-1-115-78791-8 5
+1586.35
+show -ISBN=978-0-06-298064-9
+978-0-06-298064-9	Ragusan	AllisonThompson	wave	331.95	6
+logout
+su N67qm0yIC1QPft2 f5AZ0Otn0caQ1yo3kYjLuQ70j
+show -name="Po"
+978-1-315-63081-6	Po	RebeccaSimmons	seduction	208.46	0
+buy 978-1-66988-567-2 2
+Invalid
+buy 978-1-337-84938-8 15
+24.45
+logout
+su ky mT5801UpJNrpd62
+select 978-1-72701-942-1
+import 45 4056.37
+import 132 10681.01
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs n1L9n9AlmBxQEas
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs n1L9n9AlmBxQEas Dv2
+buy 978-1-02-182375-5 1
+Invalid
+show -keyword="Williamsburg"
+978-1-4099-6562-6	space	RebeccaSimmons	acronym|lobo|Williamsburg|eluate|simian	487.69	0
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-0-09-311956-8 1
+Invalid
+show -ISBN=978-1-337-84938-8
+978-1-337-84938-8	teen	DeannaSmith	human|strabismus	1.63	5
+logout
+su root sjtu
+select 978-0-7140-8195-3
+import 8 141.94
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+select 978-1-295-67550-0
+modify -name="celebrant" -author="GaryByrd"
+modify -keyword="gentry|globulin|whimper|masonry"
+import 4 108.17
+import 23 3441.20
+select 978-0-599-24973-8
+modify -name="an" -author="DanielAnderson" -keyword="lieutenant|cavern|theatric|berate"
+select 978-0-274-99151-8
+import 21 6431.13
+import 68 12827.25
+logout
+su _Z5agy sqJQ8Ursu0GI
+select 978-1-06-711052-9
+modify -name="velours" -keyword="USIA" -price=73.99
+select 978-1-317-29754-3
+import 4 532.24
+select 978-1-155-21656-0
+import 13 870.58
+import 23 2424.02
+select 978-0-691-78619-3
+import 17 4338.32
+select 978-1-315-63081-6
+import 9 1526.04
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs Dv2
+buy 978-0-599-24973-8 1
+Invalid
+logout
+su Puo3J66 W_o
+buy 978-0-689-01468-0 1
+Invalid
+buy 978-0-690-83534-2 14
+Invalid
+buy 978-1-317-29754-3 15
+Invalid
+show -name="Saracen"
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	4
+logout
+su 3CtLr_wr satsEYVYdr
+buy 978-0-689-01468-0 1
+Invalid
+logout
+su LCv1TmFSikSyVOHZFtnJMVxq9c jNzO7FOfALU44Kv7
+buy 978-0-593-41245-9 1
+Invalid
+logout
+su s81xQ uZTH0LzNp12y8nJRwW5Hqg
+show -keyword="alia"
+978-0-14-218624-4	diet	RebeccaWhite	alia|lubricity|serape|depression	113.78	0
+buy 978-0-523-64519-3 10
+4864.80
+passwd s81xQ uZTH0LzNp12y8nJRwW5Hqg 4TZFyjZ9Fly50utpb5mrPwA6
+buy 978-1-115-78791-8 4
+1269.08
+show -author="RebeccaSimmons"
+978-1-315-63081-6	Po	RebeccaSimmons	seduction	208.46	9
+978-1-4099-6562-6	space	RebeccaSimmons	acronym|lobo|Williamsburg|eluate|simian	487.69	0
+show -author="JohnWilson"
+978-1-240-17403-4	inexhaustible	JohnWilson	avocet	135.55	0
+show -name="glare"
+978-1-115-78791-8	glare	TiffanyCampos	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	317.27	2
+logout
+su XyhJ1x bQGD8L9hjAa9XIm9mx4xFlqY9
+buy 978-0-10-496646-4 120
+Invalid
+buy 978-0-646-18762-4 28
+9260.72
+show -keyword="impracticable"
+978-0-691-78619-3	entry	RoseSmith	legend|impracticable|booze|strenuous	355.84	17
+show -ISBN=978-1-317-29754-3
+978-1-317-29754-3	stalwart	DennisRogers	sleight|contaminate|tenet|permafrost|Caviness	253.51	13
+buy 978-0-9915218-4-5 8
+3734.24
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs Dv2
+buy 978-1-337-84938-8 1
+1.63
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs Dv2 RBaVtED7MBgwnL8sFLY
+show -keyword="Chinese"
+978-0-603-41078-9	knelt	GeorgeMunoz	Chinese|weasel|allele|pine	118.13	0
+buy 978-1-79129-595-0 1
+Invalid
+show -keyword="Haines"
+978-1-916079-50-2	Saskatoon	JohnAdams	Haines	250.62	2787
+buy 978-1-66988-567-2 1
+390.25
+buy 978-1-337-84938-8 3
+4.89
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs RBaVtED7MBgwnL8sFLY uIn93oAxxvjc9Hp2W6jM0x9wMX
+passwd g tEN2ETv3Hl 5acm5ilHVL
+Invalid
+buy 978-1-916079-50-2 2007
+502994.34
+show -author="ElizabethHarris"
+978-1-942322-26-9	Nelsen	ElizabethHarris	cupboard|falloff|fault|alabaster	172.20	4
+show -name="inexhaustible"
+978-1-240-17403-4	inexhaustible	JohnWilson	avocet	135.55	0
+buy 978-1-86436-098-1 1
+Invalid
+buy 978-1-72701-942-1 129
+32021.67
+passwd eSqlV0GY0kWQYl8lMyK32zXhxq vLXHTFzkjpuiXkeENJxavC MTqPkcXeyJcO060UJEElZtqKmfP
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs uIn93oAxxvjc9Hp2W6jM0x9wMX 7wDCzH517JLsZ_E44oYX
+show -keyword="rotogravure"
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	4
+978-0-243-39359-6	doubtful	SarahReed	rotogravure|bijection	388.72	0
+buy 978-1-261-24156-2 1
+Invalid
+buy 978-0-06-298064-9 4
+1327.80
+show -author="RebeccaWhite"
+978-0-14-218624-4	diet	RebeccaWhite	alia|lubricity|serape|depression	113.78	0
+buy 978-0-14-218624-4 1
+Invalid
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs 7wDCzH517JLsZ_E44oYX
+passwd Hn_Yxj7Na1ngdvGrFijFye3_mgs 7wDCzH517JLsZ_E44oYX hefG
+show -keyword="lieutenant"
+978-0-599-24973-8	an	DanielAnderson	lieutenant|cavern|theatric|berate	365.68	0
+logout
+su _Z5agy sqJQ8Ursu0GI
+select 978-1-883394-66-0
+import 76 4637.71
+select 978-0-523-64519-3
+import 18 4808.71
+select 978-0-691-78619-3
+import 28 11013.78
+import 97 27034.69
+select 978-0-00-390693-6
+import 11 2770.97
+modify -name="Sepoy" -author="WayneMiranda" -keyword="interim|terrain|adenoma|alia|drudge" -price=171.67
+import 13 1862.16
+import 3 400.83
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f fxA8
+show -name="Saracen"
+978-0-208-38455-3	Saracen	JulieMcmahon	rotogravure	276.40	4
+buy 978-1-155-21656-0 21
+3853.50
+show -name="Ragusan"
+978-0-06-298064-9	Ragusan	AllisonThompson	wave	331.95	2
+buy 978-1-261-24156-2 1
+Invalid
+buy 978-1-06-711052-9 1
+Invalid
+logout
+su CqqzxzBXwUNyERe0lTwT 0nS9E0eO_VJLbRqPfOTneztD5tjaF
+buy 978-0-691-78619-3 36
+12810.24
+buy 978-1-883394-66-0 45
+3033.90
+buy 978-1-295-67550-0 6
+807.66
+buy 978-0-7140-8195-3 3
+223.47
+passwd CqqzxzBXwUNyERe0lTwT 0nS9E0eO_VJLbRqPfOTneztD5tjaF O5C7V__InPrXG1Y70PxDYPTu
+buy 978-1-5474-4694-0 1
+Invalid
+logout
+su BPU2 qS0qcy1EfGmqYYZYO
+buy 978-1-337-84938-8 2
+Invalid
+buy 978-0-208-38455-3 5
+Invalid
+buy 978-0-593-41245-9 1
+Invalid
+buy 978-0-06-298064-9 2
+663.90
+buy 978-1-142-72822-9 51
+21081.36
+show -keyword="briar"
+978-1-171-92943-7	epoxy	AudreyAyala	tenet|briar|Siegel|tonsillitis	355.36	5
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+show -ISBN=978-1-295-67550-0
+978-1-295-67550-0	celebrant	GaryByrd	gentry|globulin|whimper|masonry	134.61	21
+buy 978-1-942322-26-9 2
+344.40
+buy 978-0-603-41078-9 1
+Invalid
+logout
+su LCv1TmFSikSyVOHZFtnJMVxq9c jNzO7FOfALU44Kv7
+show -name="saturable"
+978-1-261-24156-2	saturable	JenniferNguyen	angstrom|bauble|cavern|straight|ignominious	6.16	0
+show -name="ARPA"
+978-0-593-41245-9	ARPA	BrettPerry	night|prelude|funeral|Thea|pow	477.85	0
+logout
+su Hn_Yxj7Na1ngdvGrFijFye3_mgs hefG
+show -keyword="rasa"
+978-0-17-033264-4	psychopathic	BarbaraMaldonado	rasa|acronym|emphysema|pontificate	447.05	0
+logout
+su jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P
+logout
+su z E70GKfaw3T
+buy 978-0-9915218-4-5 12
+5601.36
+logout
+su Q8UXf gMe4QbGF0C1XW9NF6gSExncMxC3Mk
+logout
+su SBiCVQB26gcl3q1QoShDc CElni
+show -author="JacobHurley"
+978-0-314-95765-8	squeegee	JacobHurley	Diocletian|woodruff|must|clash	137.98	5
+buy 978-1-06-711052-9 1
+Invalid
+buy 978-0-593-41245-9 1
+Invalid
+passwd SBiCVQB26gcl3q1QoShDc CElni mXIz3zLJsGc6iUY1h9LEudfZIyu
+logout
+su SBiCVQB26gcl3q1QoShDc mXIz3zLJsGc6iUY1h9LEudfZIyu
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+select 978-1-105-18235-8
+modify -author="ShaneWood" -keyword="pine|compare|acronym|leery"
+import 18 4245.62
+logout
+su tL_ ZAQ4qxDygWb5oBZRdHR
+buy 978-0-225-17392-5 1
+Invalid
+show -author="MichaelMarquez"
+978-0-7140-8195-3	hove	MichaelMarquez	clue|manage|woodruff	74.49	5
+logout
+su Puo3J66 W_o
+buy 978-1-60572-423-2 1
+Invalid
+logout
+su uepWvr7SAjMfoPthPjpa9XDtSfvpj B
+buy 978-1-4099-6562-6 1
+Invalid
+show -name="rip"
+978-1-883394-66-0	rip	DonnaSutton	dice|it'd|ahem|laze	67.42	59
+buy 978-1-76142-239-3 8
+506.64
+passwd uepWvr7SAjMfoPthPjpa9XDtSfvpj B KyFXHgHsx1
+buy 978-0-16-786356-4 1
+Invalid
+buy 978-1-79129-595-0 1
+Invalid
+buy 978-1-916079-50-2 718
+179945.16
+buy 978-1-72701-942-1 11
+2730.53
+buy 978-0-274-99151-8 22
+7269.02
+buy 978-0-274-99151-8 64
+21146.24
+show -name="disc"
+978-1-86436-098-1	disc	MarcusMiles	briar|telephone|keyword	266.60	0
+show -ISBN=978-1-315-63081-6
+978-1-315-63081-6	Po	RebeccaSimmons	seduction	208.46	9
+passwd MFnTUY2luoHpcSV6N PO9qbmIvKytJK5ufZUxOLcfXI OJI6wMOLgaMlxLha
+Invalid
+logout
+su Puo3J66 W_o
+show -name="celebrant"
+978-1-295-67550-0	celebrant	GaryByrd	gentry|globulin|whimper|masonry	134.61	21
+logout
+su smJ3JDAUqy3hg9mVT KmNGMPPo2NKqxM8c
+passwd smJ3JDAUqy3hg9mVT KmNGMPPo2NKqxM8c Cc6lhVtUoBoI8xKLS5J74pOb1DXX6
+show -ISBN=978-1-72701-942-1
+978-1-72701-942-1	Hans	VanessaSullivan	foxtail|Harlan|Quixote|Thea	248.23	60
+logout
+su jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P
+show -ISBN=978-0-599-24973-8
+978-0-599-24973-8	an	DanielAnderson	lieutenant|cavern|theatric|berate	365.68	0
+buy 978-1-315-63081-6 6
+1250.76
+buy 978-1-171-92943-7 2
+710.72
+buy 978-0-09-311956-8 1
+Invalid
+buy 978-1-06-711052-9 1
+Invalid
+buy 978-1-942322-26-9 1
+172.20
+logout
+su dbGaqLhKkj3F64jxJbrXmW8GW5zu 7tYEFdfd8e4luM
+buy 978-0-274-99151-8 7
+2312.87
+show -author="KerryWilson"
+978-1-79129-595-0	odium	KerryWilson	bowl|parochial	72.01	0
+passwd dbGaqLhKkj3F64jxJbrXmW8GW5zu 7tYEFdfd8e4luM nWfhzqyQ2rSug
+buy 978-1-352-86616-2 1
+Invalid
+passwd 3CtLr_wr ZZZ1 2HDEOpmlD2FwEJUNdMsdmj7GtzwVqc
+Invalid
+buy 978-1-916079-50-2 37
+9272.94
+buy 978-1-76142-239-3 1
+63.33
+logout
+su s81xQ 4TZFyjZ9Fly50utpb5mrPwA6
+buy 978-0-314-95765-8 6
+Invalid
+show -author="AudreyCarterDVM"
+978-0-523-64519-3	razorback	AudreyCarterDVM	grew|fogging|conduce|ellipsis	486.48	24
+buy 978-1-337-84938-8 1
+1.63
+passwd s81xQ 4TZFyjZ9Fly50utpb5mrPwA6 hknmFmjYlNdHy8e
+buy 978-1-142-72822-9 51
+21081.36
+buy 978-0-17-033264-4 1
+Invalid
+logout
+su xgpLu1ZxsLzmYwFO4 cAC3Kvf_yzhZBT647duOOOdlrjieBL
+buy 978-0-10-496646-4 119
+7261.38
+buy 978-1-86436-098-1 1
+Invalid
+buy 978-1-261-24156-2 1
+Invalid
+logout
+su ky mT5801UpJNrpd62
+logout
+su XyhJ1x bQGD8L9hjAa9XIm9mx4xFlqY9
+buy 978-1-240-17403-4 1
+Invalid
+passwd z1Vvj LUUqchUboaw nTIhi
+passwd XyhJ1x bQGD8L9hjAa9XIm9mx4xFlqY9 SONXkU59CPl
+buy 978-1-02-182375-5 1
+Invalid
+buy 978-0-274-99151-8 1
+Invalid
+passwd VtnMF 7FCoc7 uXjRXiE7
+logout
+su JtVB2LWnNx6Y4Ji qEcjngbtXk
+buy 978-1-60572-423-2 1
+Invalid
+logout
+su xgpLu1ZxsLzmYwFO4 cAC3Kvf_yzhZBT647duOOOdlrjieBL
+passwd xgpLu1ZxsLzmYwFO4 cAC3Kvf_yzhZBT647duOOOdlrjieBL s84vZHaGCr1iak24ZI_8sqCV_1rSj
+logout
+su v3H1_fuOfPV2U_EYRGAPkYYR 0E
+logout
+su 2gTqaP8Xme0e tlq7N6GHAXHksAC
+logout
+su s81xQ hknmFmjYlNdHy8e
+logout
+su ViBE68mfGdwaCefpR2wCulr57u JSFAZ_l7MxnA7Tgi4
+show -keyword="fogging"
+978-0-523-64519-3	razorback	AudreyCarterDVM	grew|fogging|conduce|ellipsis	486.48	24
+passwd jhjDpZIype7_41RFR GwE6qBaHkivctfmZfF6Wx3P fhLjAJKRp7nuC97G
+show -ISBN=978-1-240-17403-4
+978-1-240-17403-4	inexhaustible	JohnWilson	avocet	135.55	0
+buy 978-0-593-41245-9 1
+Invalid
+buy 978-0-06-298064-9 1
+Invalid
+show -keyword="ultra"
+978-1-115-78791-8	glare	TiffanyCampos	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	317.27	2
+buy 978-0-690-83534-2 10
+2858.30
+passwd z fz_u9B6BXWOL69vsHfp3BBol skp7BAw4xFOAFaKiUD8hos
+Invalid
+logout
+su 8i6 1SbpLnZfCW6PBvqa6IAf3vhRbhQitA
+show -name="switchman"
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	3
+show -author="RebeccaWhite"
+978-0-14-218624-4	diet	RebeccaWhite	alia|lubricity|serape|depression	113.78	0
+buy 978-0-225-17392-5 1
+Invalid
+show -author="RebeccaWhite"
+978-0-14-218624-4	diet	RebeccaWhite	alia|lubricity|serape|depression	113.78	0
+buy 978-1-337-84938-8 1
+Invalid
+logout
+su z1Vvj nTIhi
+buy 978-0-314-95765-8 5
+689.90
+buy 978-0-17-033264-4 1
+Invalid
+logout
+su z1Vvj nTIhi
+buy 978-1-86436-098-1 1
+Invalid
+logout
+su 8i6 1SbpLnZfCW6PBvqa6IAf3vhRbhQitA
+passwd 8i6 1SbpLnZfCW6PBvqa6IAf3vhRbhQitA R
+buy 978-1-883394-66-0 9
+606.78
+passwd smJ3JDAUqy3hg9mVT Cc6lhVtUoBoI8xKLS5J74pOb1DXX6 MB2bjSdV4Lo17Jb
+show -keyword="Thea"
+978-0-593-41245-9	ARPA	BrettPerry	night|prelude|funeral|Thea|pow	477.85	0
+978-1-72701-942-1	Hans	VanessaSullivan	foxtail|Harlan|Quixote|Thea	248.23	60
+show -keyword="Cantabrigian"
+978-0-9915218-4-5	puck	ValerieGraves	Cantabrigian|mineralogy|conjoin|iceman|descriptive	466.78	3
+buy 978-0-09-311956-8 1
+Invalid
+passwd 8i6 R vjMYXeKv6vmX8YwYiR3JZS
+passwd 8i6 vjMYXeKv6vmX8YwYiR3JZS 4CO5SAs8N0tKXgTh6H1ATdyYTJRJGc
+buy 978-1-916079-50-2 15
+3759.30
+buy 978-0-06-298064-9 1
+Invalid
+buy 978-1-295-67550-0 16
+2153.76
+buy 978-1-295-67550-0 6
+Invalid
+show -ISBN=978-0-646-18762-4
+978-0-646-18762-4	switchman	AdamTorres	pert|scum	330.74	3
+logout
+su jhjDpZIype7_41RFR fhLjAJKRp7nuC97G
+logout
+su siQ yDiWNcin_lCKy
+show -ISBN=978-1-295-67550-0
+978-1-295-67550-0	celebrant	GaryByrd	gentry|globulin|whimper|masonry	134.61	5
+show -ISBN=978-1-02-182375-5
+978-1-02-182375-5	fugue	JeffreyKline	vice|slunk|infimum|glossy	446.43	0
+buy 978-0-14-218624-4 1
+Invalid
+buy 978-1-155-21656-0 17
+Invalid
+buy 978-1-06-711052-9 1
+Invalid
+show -keyword="must"
+978-0-314-95765-8	squeegee	JacobHurley	Diocletian|woodruff|must|clash	137.98	0
+978-1-76142-239-3	scuttle	ShawnLucero	teeing|pontificate|must|Malay|Diocletian	63.33	2
+logout
+su r4XSv MUTXNznbRpFU
+select 978-0-691-78619-3
+modify -name="droplet" -author="MelissaRodriguez" -keyword="harem|phalarope|simper"
+import 56 6876.85
+import 33 10210.90
+select 978-0-593-41245-9
+import 14 827.47
+import 16 2042.27
+import 63 10178.73
+modify -name="Krebs" -price=208.69
+modify -keyword="plywood"
+modify -name="killjoy" -author="RobertRoss" -price=380.10
+select 978-0-603-41078-9
+modify -author="GlennMoon" -keyword="strenuous|prescription|tallow"
+select 978-0-274-99151-8
+import 17 6787.35
+logout
+su 9nFyYbi MEzvYlKbI8ERCwy_prK
+show -author="JacobAnthony"
+978-0-10-496646-4	altimeter	JacobAnthony	booze|toxin|slimy	61.02	0
+978-1-66988-567-2	roost	JacobAnthony	corrupt|dignity|fatty	390.25	0
+show -keyword="Ceres"
+978-1-155-21656-0	Ithaca	MarissaGarza	fallout|rocket|Ceres	183.50	15
+978-1-60572-423-2	pessimist	DuaneJohnson	teet|Ceres	486.36	0
+show -author="VanessaSullivan"
+978-1-72701-942-1	Hans	VanessaSullivan	foxtail|Harlan|Quixote|Thea	248.23	60
+buy 978-1-142-72822-9 129
+53323.44
+buy 978-0-243-39359-6 1
+Invalid
+buy 978-0-17-033264-4 1
+Invalid
+buy 978-1-66988-567-2 1
+Invalid
+buy 978-0-274-99151-8 18
+Invalid
+logout
+su smJ3JDAUqy3hg9mVT MB2bjSdV4Lo17Jb
+buy 978-1-5474-4694-0 1
+Invalid
+buy 978-1-60572-423-2 1
+Invalid
+buy 978-1-942322-26-9 1
+172.20
+buy 978-0-646-18762-4 1
+330.74
+show -author="JohnWilson"
+978-1-240-17403-4	inexhaustible	JohnWilson	avocet	135.55	0
+buy 978-1-5474-4694-0 1
+Invalid
+show -ISBN=978-1-883394-66-0
+978-1-883394-66-0	rip	DonnaSutton	dice|it'd|ahem|laze	67.42	50
+show -name="epoxy"
+978-1-171-92943-7	epoxy	AudreyAyala	tenet|briar|Siegel|tonsillitis	355.36	3
+buy 978-0-690-83534-2 1
+285.83
+buy 978-0-243-39359-6 1
+Invalid
+passwd smJ3JDAUqy3hg9mVT MB2bjSdV4Lo17Jb 5OGA_E5iT
+show -ISBN=978-0-00-390693-6
+978-0-00-390693-6	Sepoy	WayneMiranda	interim|terrain|adenoma|alia|drudge	171.67	27
+logout
+su g NhTREEWGg1i
+passwd tL_ ZAQ4qxDygWb5oBZRdHR 7sYQW
+logout
+su dbGaqLhKkj3F64jxJbrXmW8GW5zu nWfhzqyQ2rSug
+logout
+su 7IWyyeYM7XUSbUe164hQ WuWgGuwRrqzTR908hq19iXUGhF
+select 978-1-79129-595-0
+import 2 118.50
+modify -name="curlew" -author="JackMartinez" -keyword="otter|Beardsley|Huron|commissariat" -price=216.26
+select 978-0-593-41245-9
+modify -author="NatalieDominguez" -keyword="depression|booze|scum|prostitution|olefin" -price=58.36
+select 978-1-79129-595-0
+import 20 861.37
+modify -name="Conrad" -author="RebeccaSimmons" -keyword="gavel|toolkit|ordinary" -price=313.35
+select 978-1-66988-567-2
+import 10 3477.52
+select 978-1-56469-772-1
+modify -name="retch" -price=156.25
+import 19 3258.80
+import 46 2806.55
+select 978-0-10-496646-4
+modify -name="northland" -price=432.89
+import 11 48.27
+modify -name="emphasis" -keyword="toenail|punish|prostitution|ordinary"
+modify -name="Assam"
+import 2 828.36
+modify -name="carpet" -author="ScottPaul" -price=200.95
+select 978-0-9915218-4-5
+modify -name="modish" -author="AdrianGibson" -keyword="strenuous|Corsica|auto|olefin" -price=348.94
+import 9 2943.67
+import 3 1300.75
+import 47 4712.43
+logout
+su z1Vvj nTIhi
+passwd z1Vvj nTIhi gtaV3VZgYEFch3UuoKJSex
+buy 978-0-593-41245-9 78
+4552.08
+show -keyword="avocet"
+978-1-240-17403-4	inexhaustible	JohnWilson	avocet	135.55	0
+logout
+su 9nFyYbi MEzvYlKbI8ERCwy_prK
+logout
+su jhjDpZIype7_41RFR fhLjAJKRp7nuC97G
+buy 978-0-599-24973-8 1
+Invalid
+show -ISBN=978-0-14-218624-4
+978-0-14-218624-4	diet	RebeccaWhite	alia|lubricity|serape|depression	113.78	0
+logout
+su R9WCkh8NXkjujp3a eq9ayU3HKhunR0OMo45AdBBL9ijGZ
+buy 978-0-10-496646-4 1
+200.95
+show -name="Nelsen"
+978-1-942322-26-9	Nelsen	ElizabethHarris	cupboard|falloff|fault|alabaster	172.20	0
+logout
+su N67qm0yIC1QPft2 f5AZ0Otn0caQ1yo3kYjLuQ70j
+show -name="celebrant"
+978-1-295-67550-0	celebrant	GaryByrd	gentry|globulin|whimper|masonry	134.61	5
+buy 978-1-315-63081-6 4
+Invalid
+buy 978-1-315-63081-6 2
+416.92
+buy 978-1-261-24156-2 1
+Invalid
+show -keyword="anarchy"
+978-1-346-34801-8	accipiter	KristenWheeler	stinkpot|embarcadero|it'd|Purina|anarchy	127.58	5
+buy 978-1-352-86616-2 1
+Invalid
+buy 978-0-208-38455-3 1
+276.40
+logout
+su 3ZzcNy_L FvskvUy634boFhTSXHKL__
+show -name="accipiter"
+978-1-346-34801-8	accipiter	KristenWheeler	stinkpot|embarcadero|it'd|Purina|anarchy	127.58	5
+show -author="GaryByrd"
+978-1-295-67550-0	celebrant	GaryByrd	gentry|globulin|whimper|masonry	134.61	5
+978-1-56469-772-1	retch	GaryByrd	equipotent|silversmith|glossy|seal|gleam	156.25	67
+buy 978-1-155-21656-0 8
+1468.00
+logout
+su tL_ 7sYQW
+buy 978-1-317-29754-3 14
+Invalid
+show -author="BarbaraMaldonado"
+978-0-17-033264-4	psychopathic	BarbaraMaldonado	rasa|acronym|emphysema|pontificate	447.05	0
+buy 978-1-317-29754-3 14
+Invalid
+buy 978-0-208-38455-3 1
+276.40
+buy 978-1-346-34801-8 6
+Invalid
+passwd tL_ 7sYQW 3AhU9X9Aj7h1oCPeCIfNOx
+passwd tL_ 3AhU9X9Aj7h1oCPeCIfNOx HnIjbELurfVQa_Y2kNzA
+show -name="modish"
+978-0-9915218-4-5	modish	AdrianGibson	strenuous|Corsica|auto|olefin	348.94	62
+buy 978-0-523-64519-3 18
+8756.64
+logout
+su clXzwOc9azP25D6FwoCGax7Rlq d5Lcp7
+logout
+su r4XSv MUTXNznbRpFU
+logout
+su 9nFyYbi MEzvYlKbI8ERCwy_prK
+buy 978-1-295-67550-0 3
+403.83
+buy 978-0-7140-8195-3 5
+372.45
+show -ISBN=978-1-115-78791-8
+978-1-115-78791-8	glare	TiffanyCampos	ultra|Ferdinand|Lubbock|Ptolemy|suitcase	317.27	2
+show -author="GaryByrd"
+978-1-295-67550-0	celebrant	GaryByrd	gentry|globulin|whimper|masonry	134.61	2
+978-1-56469-772-1	retch	GaryByrd	equipotent|silversmith|glossy|seal|gleam	156.25	67
+buy 978-0-9915218-4-5 63
+Invalid
+logout
+su xgpLu1ZxsLzmYwFO4 s84vZHaGCr1iak24ZI_8sqCV_1rSj
+buy 978-1-916079-50-2 12
+Invalid
+logout
+su YmD6ctfZq6uDosj3IOne6 iFZhdWuqVrYwvnabxsT
+logout
+su ABCL0qaRaF6s 15cYpHaQXXJnPOnN5
+logout
+su R43Cpitq7C3bPDcr_Bf9c85f fxA8
+logout
+su JtVB2LWnNx6Y4Ji qEcjngbtXk
+buy 978-1-337-84938-8 1
+Invalid
+buy 978-0-9915218-4-5 65
+Invalid
+buy 978-1-295-67550-0 1
+134.61
+buy 978-1-916079-50-2 6
+1503.72
+show -name="inexhaustible"
+978-1-240-17403-4	inexhaustible	JohnWilson	avocet	135.55	0
+buy 978-0-225-17392-5 1
+Invalid
+logout
+su r4XSv MUTXNznbRpFU
+select 978-1-352-86616-2
+modify -price=219.70
+import 3 490.92
+import 9 1995.17
+modify -name="rebuttal" -keyword="booze"
+select 978-0-17-033264-4
+import 5 942.63
+import 5 482.58
+modify -name="exist" -price=14.13
+import 28 470.89
+modify -author="MaryDixon" -price=453.49
+import 70 8186.16
+import 32 16217.26
+import 155 82846.28
+modify -name="handsome" -keyword="billow"
+import 302 129565.24
+select 978-1-115-78791-8
+import 1 153.96
+import 8 557.91
+select 978-1-240-17403-4
+modify -author="AlexisAnderson"
+modify -name="stonewall" -price=9.70
+import 12 17.82
+select 978-1-240-17403-4
+import 44 353.41
+import 76 875.17
+select 978-1-79129-595-0
+import 25 6273.30
+select 978-0-16-786356-4
+modify -author="KristenWheeler" -keyword="glossy|sleight" -price=439.62
+modify -name="buzzword" -author="WilliamHensley" -price=443.32
+import 7 2605.46
+logout
+su CqqzxzBXwUNyERe0lTwT O5C7V__InPrXG1Y70PxDYPTu
+buy 978-1-352-86616-2 2
+439.40
