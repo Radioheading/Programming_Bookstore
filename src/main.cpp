@@ -8,6 +8,7 @@ using namespace std;
 string operation;
 using std::cout;
 int main() {
+  //freopen("1.in","r",stdin);
   ios::sync_with_stdio(false);
   //cin.tie(nullptr);
   //cout.tie(nullptr);

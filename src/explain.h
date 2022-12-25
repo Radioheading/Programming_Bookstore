@@ -169,6 +169,7 @@ std::vector<std::string> Decompose(const std::string &input) {
   if (ans[0] == "buy" && ans.size() != 3) throw ErrorException();
   if (ans[0] == "show" && ans.size() > 3) throw ErrorException();
   if (ans[0] == "modify" && (ans.size() > 6 || ans.size() < 2)) throw ErrorException();
+  if (ans[0] == "log" && ans.size() > 1) throw ErrorException();
   return ans;
 }
 
@@ -251,6 +252,16 @@ void Execute(Program &program, const std::vector<std::string> &input) {
       //std::cout<<commands[i].first<<'\n';
     }
     program.Modify(commands);
+  }
+  if (input[0] == "log") {
+    if (program.current_privilege < 7) throw ErrorException();
+    else {
+      std::cout << "welcome! owner of the bookstore \n";
+      program.my_diary.Traverse();
+      std::cout << "total income and expenditure ...\n" << "\x1b[31;1m";
+      program.finance.ShowFinance(-1);
+      std::cout << "\x1b[0m" << "=========================================================================\n";
+    }
   }
 }
 

@@ -16,7 +16,7 @@ class Log {
   std::string log_name;
   struct info {
     int now_size = 0;
-    double all_information[40005] = {0};
+    double all_information[1005] = {0};
   } everything;
  public:
   Log() = default;

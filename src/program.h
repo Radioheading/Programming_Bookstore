@@ -6,6 +6,7 @@
 #include <iomanip>
 #include "explain.h"
 #include "log.h"
+#include "diary.h"
 
 double StringToDouble(const std::string &input) {
   if (input.length() > 13) throw ErrorException();
@@ -48,7 +49,7 @@ bool DoubleCheck(const std::string &input) {
     }
   }
   if (input == "0.0") return false;
-  if (input[input.size()-1] == '.') return false;
+  if (input[input.size() - 1] == '.') return false;
   return true;
 }
 //--------------------------Class Program---------------------------------
@@ -63,6 +64,7 @@ class Program {
   unrolled_linklist<Book> name_bookstore;
   unrolled_linklist<Book> author_bookstore;
   unrolled_linklist<Book> keyword_bookstore;
+  Diary my_diary;
   Log finance;
   std::vector<User> login_stack;
   int current_privilege = 0;
@@ -125,9 +127,11 @@ Program::Program() {
   author_bookstore.initialize("authors");
   keyword_bookstore.initialize("keywords");
   finance.initialize("records");
+  my_diary.initialize("diary");
   User super_admin("7", "root", "sjtu");
   if (user_store.Find("root").empty()) {
     user_store.Insert("root", super_admin);
+    my_diary.PushBack(1, "the Bookstore System", "created account: root");
   }
 }
 void Program::Login(const std::string &id, const std::string &password) {
@@ -143,6 +147,7 @@ void Program::Login(const std::string &id, const std::string &password) {
       }
       login_stack.push_back(exist_check[0]);
       current_privilege = exist_check[0].privilege;
+      my_diary.PushBack(1, id, "login");
     }
   }
 }
@@ -156,6 +161,7 @@ void Program::Logout() {
     } else {
       current_privilege = 0;
     }
+    my_diary.PushBack(1, login_stack.back().UserID, "logout");
     login_stack.pop_back();
   }
 }
@@ -169,6 +175,7 @@ void Program::Register(const std::string &userid, const std::string &password, c
     }
     User another("1", userid, password, username);
     user_store.Insert(userid, another);
+    my_diary.PushBack(1, userid, "is registered");
   }
 }
 void Program::ModifyPassword(const std::string &id,
@@ -186,6 +193,7 @@ void Program::ModifyPassword(const std::string &id,
   if (!UserInfoCheck(new_password)) {
     throw ErrorException();
   }
+  my_diary.PushBack(1, modify[0].UserID, "'s password is modified");
   user_store.Delete(id, modify[0]);
   modify[0].ChangePassword(new_password);
   user_store.Insert(id, modify[0]);
@@ -201,6 +209,9 @@ void Program::AddUser(const std::string &userid,
     throw ErrorException();
   }
   User added_user(privilege, userid, password, username);
+  std::string temp = "add user: ";
+  temp += userid;
+  my_diary.PushBack(1, login_stack.back().UserID, temp);
   user_store.Insert(userid, added_user);
 }
 void Program::DeleteUser(const std::string &userid) {
@@ -210,6 +221,9 @@ void Program::DeleteUser(const std::string &userid) {
   for (int i = 0; i < login_stack.size(); ++i) {
     if ((std::string) login_stack[i].UserID == userid) throw ErrorException();
   }
+  std::string temp = "delete user: ";
+  temp += userid;
+  my_diary.PushBack(1, login_stack.back().UserID, temp);
   user_store.Delete(userid, search[0]);
 }
 void Program::Exit() {
@@ -233,6 +247,9 @@ void Program::Select(const std::string &_ISBN) {
     login_stack.back().selected = search[0];
     login_stack.back().choosing = true;
   }
+  std::string temp = "select ";
+  temp += _ISBN;
+  my_diary.PushBack(1, login_stack.back().UserID, temp);
 }
 void Program::Buy(const std::string &_ISBN, int number) {
   if (current_privilege < 1) throw ErrorException();
@@ -251,6 +268,11 @@ void Program::Buy(const std::string &_ISBN, int number) {
   std::cout << std::fixed << std::setprecision(2);
   std::cout << search[0].price * number << '\n';
   finance.Insert(search[0].price * number);
+  std::string temp = "buy ";
+  temp += _ISBN;
+  temp += " number: ";
+  temp += std::to_string(number);
+  my_diary.PushBack(2, login_stack.back().UserID, temp);
 }
 void Program::Import(const int &quantity, const double &total_cost) {
   if (current_privilege < 3 || !login_stack.back().choosing) {
@@ -271,30 +293,35 @@ void Program::Import(const int &quantity, const double &total_cost) {
   // record this in the log system
   finance.Insert(-total_cost);
   Input(login_stack.back().selected);
+  std::string temp = "imported ";
+  temp += login_stack.back().selected.ISBN;
+  temp += " number: ";
+  temp += std::to_string(quantity);
+  my_diary.PushBack(2, login_stack.back().UserID, temp);
 }
 void Program::Show(const int &way, const std::string &content) {
   if (current_privilege < 1) throw ErrorException();
   std::vector<Book> search;
   if (way == 1) {
-    if (!ISBNCheck(content) && content!="") {
+    if (!ISBNCheck(content) && content != "") {
       throw ErrorException();
     }
     search = book_store.Find(content);
   }
   if (way == 2) {
-    if (!BookInfoCheck(content) && content!="") {
+    if (!BookInfoCheck(content) && content != "") {
       throw ErrorException();
     }
     search = name_bookstore.Find(content);
   }
   if (way == 3) {
-    if (!BookInfoCheck(content) && content!="") {
+    if (!BookInfoCheck(content) && content != "") {
       throw ErrorException();
     }
     search = author_bookstore.Find(content);
   }
   if (way == 4) {
-    if (!SingleKeywordCheck(content) && content!="") {
+    if (!SingleKeywordCheck(content) && content != "") {
       throw ErrorException();
     }
     search = keyword_bookstore.Find(content);
@@ -374,5 +401,8 @@ void Program::Modify(const std::vector<std::pair<int, std::string>> &todo) {
     }
   }
   Input(login_stack.back().selected);
+  std::string temp = "modify ";
+  temp += duplicate.ISBN;
+  my_diary.PushBack(1, login_stack.back().UserID, temp);
 }
 #endif //BOOKSTORE_REAL__PROGRAM_H_

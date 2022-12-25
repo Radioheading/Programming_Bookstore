@@ -97,7 +97,7 @@ class unrolled_linklist {
     file_stream.open(file_name);
     file_stream.seekg(0);
     file_stream.read(reinterpret_cast<char *>(&start), sizeof(start));
-      file_stream.seekp(start.start_place);
+    file_stream.seekp(start.start_place);
     if (start.now_size == 0) { // nothing exist then
       node<T> temp;
       temp.current_size = 1;
@@ -197,7 +197,7 @@ class unrolled_linklist {
     file_stream.seekg(0);
     file_stream.read(reinterpret_cast<char *>(&start), sizeof(start));
     if (start.now_size == 0) { // an empty line when there's nothing
-      std::cout<<'\n';
+      std::cout << '\n';
       file_stream.close();
       return;
     }
@@ -206,7 +206,7 @@ class unrolled_linklist {
       file_stream.seekg(start.block_storage[i]);
       file_stream.read(reinterpret_cast<char *>(&current), sizeof(current));
       for (int j = 0; j < current.current_size; ++j) {
-        std::cout<<current.small_books[j].value<<'\n';
+        std::cout << current.small_books[j].value << '\n';
       }
     }
     file_stream.close();
