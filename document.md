@@ -52,6 +52,7 @@
 
 下面是我的repository的文件结构
 
+```plain
 ├── src
 │   ├── main.cpp
 │   ├── Utils
@@ -60,16 +61,14 @@
 │   │   ├── account.h
 │   │   ├── log.h
 │   │   ├── diary.h
-
 │   │   ├── program.h
-
 │   │   ├── MyUll.h
-
 │   │   └── explain.h
 ├── demostration of log.in
 ├── CMakeLists.txt
 ├── document.md
 ├── README.md
+```
 
 ## 各类接口、成员说明
 
@@ -283,19 +282,15 @@ class Book {
 
   所有的输出文件都是由program类完成的
 
+```plain
 ├── users（块状链表，存储用户信息）
-
 ├── books（块状链表，以ISBN为键值存储书本信息）
-
 ├── names（块状链表，以书名为键值存储书本信息）
-
 ├── authors（块状链表，以作者为键值存储书本信息）
-
 ├── keywords（块状链表，以关键词为键值存储书本信息，同时一本书会因为有多个关键词而被重复存入）
-
 ├── records（存储财务信息）
-
 ├── diary（存储一切的操作信息）
+```
 
 ## 致谢
 
