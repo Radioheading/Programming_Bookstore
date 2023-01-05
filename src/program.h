@@ -259,6 +259,11 @@ void Program::Buy(const std::string &_ISBN, int number) {
   if (search[0].storage < number) throw ErrorException();
   Erase(search[0]);
   search[0].storage -= number;
+  for (int i = 0; i < login_stack.size(); ++i) {
+    if (login_stack[i].choosing && login_stack[i].selected.ISBN == _ISBN) {
+      login_stack[i].selected.storage -= number;
+    }
+  }
   Input(search[0]);
   std::cout << std::fixed << std::setprecision(2);
   std::cout << search[0].price * number << '\n';
