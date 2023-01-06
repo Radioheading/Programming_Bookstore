@@ -70,6 +70,7 @@ class User {
     strcpy(Password, _Password.c_str());
     strcpy(Username, _Username.c_str());
     privilege = _privilege[0] - 48;
+    selected = Book();
   }
   void ChangePassword(const std::string &new_password) {
     memset(Password, 0, sizeof(Password));

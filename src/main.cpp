@@ -7,15 +7,15 @@ using namespace std;
 
 string operation;
 int main() {
-  // freopen("2.in","r",stdin);
-  // freopen("out.txt","w",stdout);
+   freopen("2.in","r",stdin);
+   freopen("out.txt","w",stdout);
   ios::sync_with_stdio(false);
   Program myProgram;
   while (getline(cin,operation)) {
     try {
       //----1----
       //check the grammar validity
-      //std::cout << operation << '\n';
+      std::cout << operation << '\n';
       if (operation.length() > 1024) throw ErrorException();
       std::vector<std::string> todo = Decompose(operation);
       if (todo.size() == 1 && (todo[0] == "exit" || todo[0] == "quit")) {
